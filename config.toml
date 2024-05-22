@@ -30,7 +30,7 @@ enableEmoji = true
   orgLocal = "Sheffield, UK"
   description = "Making statistics seem less scary."
   favicon = "/img/favicon.ico"
-  logo = "/img/favicon_png.png"
+  logo = "/img/favicon.ico"
   mainSections = ["courses", "research", "talks"]
   navallcaps = true
   # show/hide social icons in site header & footer

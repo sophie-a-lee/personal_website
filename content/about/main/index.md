@@ -1,17 +1,21 @@
 ---
 ## Configure page content in wide column
-title: "Why apéro?" # leave blank to exclude
+title: "About" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
+  Hello! I am Dr. Sophie Lee, the founder and director of S-cubed. 
   
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
-show_outro: true
-outro: |
-  <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
+  I am a statistician that loves teaching people and showing that statistics does not need to be scary! Over the past 10 years, I have written and delivered [statistics and R programming courses](/courses) to people from many different backgrounds and levels of experience. 
+  
+  My courses have been attended by a wide range of people, from researchers and university students, to medical doctors and surgeons, to social scientists and anthropologists, to data scientists and economists. I have consistently received excellent feedback about my ability to explain complex ideas in simple terms, the inclusive nature of my courses which encourages active participation, and the detailed materials that I provide participants after all of my courses.
+  
+  My [research interests](/research) lie in spatial data analysis, planetary health, Bayesian modelling approaches, and epidemiology. During my [PhD](https://doi.org/10.17037/PUBS.04670982), I used a combination of existing and novel spatial statistical modelling approaches to better understand the drivers of dengue re-emergence and expansion in Brazil. These models were informed by data from a range of epidemiological, demographic and climatic spatial datasets. I used R software to carry out these analyses and published [public online repositories](https://github.com/sophie-a-lee) alongside research papers containing detailed code to reproduce model results. 
+
+  Outside of work, I love to travel and cook. On the weekends, you can usually find me tending to my little greenhouse, hiking up hills in the Peak District, or baking cakes and cookies.
+
 ---
 
 ** index doesn't contain a body, just front matter above.

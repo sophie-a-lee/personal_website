@@ -2,169 +2,169 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day02/01-netlify/</loc>
+    <loc>http://localhost:4321/collection/day02/01-netlify/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/spoonful-series/01-spoonful/</loc>
+    <loc>http://localhost:4321/blog/spoonful-series/01-spoonful/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day01/01-github/</loc>
+    <loc>http://localhost:4321/collection/day01/01-github/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/prework/</loc>
+    <loc>http://localhost:4321/collection/prework/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day01/</loc>
+    <loc>http://localhost:4321/collection/day01/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day01/02-postcards/</loc>
+    <loc>http://localhost:4321/collection/day01/02-postcards/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/spoonful-series/02-spoonful/</loc>
+    <loc>http://localhost:4321/blog/spoonful-series/02-spoonful/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day02/02-blogdown/</loc>
+    <loc>http://localhost:4321/collection/day02/02-blogdown/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day02/</loc>
+    <loc>http://localhost:4321/collection/day02/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/spoonful-series/03-spoonful/</loc>
+    <loc>http://localhost:4321/blog/spoonful-series/03-spoonful/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day01/03-distill/</loc>
+    <loc>http://localhost:4321/collection/day01/03-distill/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/day02/03-blogdown/</loc>
+    <loc>http://localhost:4321/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/</loc>
+    <loc>http://localhost:4321/blog/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/categories/</loc>
+    <loc>http://localhost:4321/categories/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/</loc>
+    <loc>http://localhost:4321/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/social/</loc>
+    <loc>http://localhost:4321/blog/social/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/categories/theme-features/</loc>
+    <loc>http://localhost:4321/categories/theme-features/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/tags/style/</loc>
+    <loc>http://localhost:4321/tags/style/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/color-themes/</loc>
+    <loc>http://localhost:4321/blog/color-themes/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/fonts/</loc>
+    <loc>http://localhost:4321/blog/fonts/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/tags/</loc>
+    <loc>http://localhost:4321/tags/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/collection/</loc>
+    <loc>http://localhost:4321/collection/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/evergreen/</loc>
+    <loc>http://localhost:4321/blog/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/categories/evergreen/</loc>
+    <loc>http://localhost:4321/categories/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk---copy/campfire/</loc>
+    <loc>http://localhost:4321/talk---copy/campfire/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk/campfire/</loc>
+    <loc>http://localhost:4321/talk/campfire/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk---copy/</loc>
+    <loc>http://localhost:4321/talk---copy/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk/</loc>
+    <loc>http://localhost:4321/talk/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/categories/workshop/</loc>
+    <loc>http://localhost:4321/categories/workshop/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/series/a-spoonful-of-hugo/</loc>
+    <loc>http://localhost:4321/series/a-spoonful-of-hugo/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/spoonful-series/</loc>
+    <loc>http://localhost:4321/blog/spoonful-series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/tags/hugo-site/</loc>
+    <loc>http://localhost:4321/tags/hugo-site/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/categories/r/</loc>
+    <loc>http://localhost:4321/categories/r/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/series/</loc>
+    <loc>http://localhost:4321/series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/seedling/</loc>
+    <loc>http://localhost:4321/blog/seedling/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk---copy/second-seedling/</loc>
+    <loc>http://localhost:4321/talk---copy/second-seedling/</loc>
     <lastmod>2021-01-01T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk/second-seedling/</loc>
+    <loc>http://localhost:4321/talk/second-seedling/</loc>
     <lastmod>2021-01-01T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/categories/meetup/</loc>
+    <loc>http://localhost:4321/categories/meetup/</loc>
     <lastmod>2021-01-01T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/rmarkdown/</loc>
+    <loc>http://localhost:4321/blog/rmarkdown/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk---copy/seedling/</loc>
+    <loc>http://localhost:4321/talk---copy/seedling/</loc>
     <lastmod>2020-01-13T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/talk/seedling/</loc>
+    <loc>http://localhost:4321/talk/seedling/</loc>
     <lastmod>2020-01-13T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/project/</loc>
+    <loc>http://localhost:4321/project/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/categories/package/</loc>
+    <loc>http://localhost:4321/categories/package/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/project/giraffes/</loc>
+    <loc>http://localhost:4321/project/giraffes/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/css-grid-scaffold/</loc>
+    <loc>http://localhost:4321/blog/css-grid-scaffold/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/project/penguins/</loc>
+    <loc>http://localhost:4321/project/penguins/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/project/bakeoff/</loc>
+    <loc>http://localhost:4321/project/bakeoff/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/blog/built-in-contact-form/</loc>
+    <loc>http://localhost:4321/blog/built-in-contact-form/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/contact/</loc>
+    <loc>http://localhost:4321/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/form/</loc>
+    <loc>http://localhost:4321/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/elements/</loc>
+    <loc>http://localhost:4321/elements/</loc>
     <lastmod>2019-02-18T12:27:33-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/about/header/</loc>
+    <loc>http://localhost:4321/about/header/</loc>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/about/sidebar/</loc>
+    <loc>http://localhost:4321/about/sidebar/</loc>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/about/</loc>
+    <loc>http://localhost:4321/about/</loc>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/about/main/</loc>
+    <loc>http://localhost:4321/about/main/</loc>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/contributors/</loc>
+    <loc>http://localhost:4321/contributors/</loc>
   </url><url>
-    <loc>http://localhost:4321/scubed.netlify.app/license/</loc>
+    <loc>http://localhost:4321/license/</loc>
   </url>
 </urlset>

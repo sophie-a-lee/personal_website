@@ -1,4 +1,4 @@
-baseURL = "/https://scubed.netlify.app/"
+baseURL = "https://scubed.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "S-cubed"

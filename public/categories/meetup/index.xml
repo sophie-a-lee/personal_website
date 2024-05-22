@@ -10,9 +10,23 @@
     <atom:link href="http://localhost:4321/scubed.netlify.app/categories/meetup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A seedling</title>
+      <link>http://localhost:4321/scubed.netlify.app/talk---copy/second-seedling/</link>
+      <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
+      <guid>http://localhost:4321/scubed.netlify.app/talk---copy/second-seedling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A seedling</title>
       <link>http://localhost:4321/scubed.netlify.app/talk/second-seedling/</link>
       <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
       <guid>http://localhost:4321/scubed.netlify.app/talk/second-seedling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A seedling</title>
+      <link>http://localhost:4321/scubed.netlify.app/talk---copy/seedling/</link>
+      <pubDate>Mon, 13 Jan 2020 14:15:59 -0600</pubDate>
+      <guid>http://localhost:4321/scubed.netlify.app/talk---copy/seedling/</guid>
       <description></description>
     </item>
     <item>

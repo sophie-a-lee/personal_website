@@ -1,9 +1,9 @@
 ---
 title: "S-Cubed"
 subtitle: "Statistics made less scary"
-description: "We are S-cubed, a consultancy dedicated to making statistics and R programming accessible and engaging for everyone. We have over 10 years' experience of training non-statisticians from a wide range of backgrounds and experience levels."
+description: "We are S-Cubed, a consultancy dedicated to making statistics and R programming accessible and engaging for everyone. We have over 10 years' experience of training non-statisticians from a wide range of backgrounds and experience levels."
 images:
-  - img/revoir.jpg
+  - img/homepage_image.jpg
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config

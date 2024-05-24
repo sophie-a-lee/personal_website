@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spatial Data Analysis on S-cubed</title>
+    <link>http://localhost:4321/categories/spatial-data-analysis/</link>
+    <description>Recent content in Spatial Data Analysis on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:4321/categories/spatial-data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatial data analysis with R</title>
+      <link>http://localhost:4321/courses/spatial_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/spatial_data_analysis/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: TBC Contact us to request training details&#xA;Course description Spatial data analysis allows us to go beyond traditional investigation of data, and uncover relationships and patterns based on where things are. This adds an extra layer of understanding of our data which can aid us when making inferences and predictions.&#xA;Spatial data analysis has a wide range of applications across many different sectors. For example, improving access to healthcare, increasing efficiency in transport networks, identifying areas of expansion in retail and hospitality, and developing approaches to environmental preservation.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on S-cubed</title>
+    <link>http://localhost:4321/categories/statistics/</link>
+    <description>Recent content in Statistics on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:4321/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inferential statistics</title>
+      <link>http://localhost:4321/courses/inferential_statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/inferential_statistics/</guid>
+      <description>Course level: Foundation&#xA;Self-paced course available FREE here&#xA;Course description The aim of statistical analysis is often to make inferences about a target population of interest based on a random sample from it. Inferences such as these require inferential statistics.&#xA;This micro-course will introduce two of the most common inferential statistics: p-values and confidence intervals. Although these statistics are widely used across many disciplines, their interpretation can be tricky, which can lead to them being misrepresented.</description>
+    </item>
+  </channel>
+</rss>

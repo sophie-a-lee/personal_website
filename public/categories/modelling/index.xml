@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modelling on S-cubed</title>
+    <link>http://localhost:4321/categories/modelling/</link>
+    <description>Recent content in Modelling on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:4321/categories/modelling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to regression with R</title>
+      <link>http://localhost:4321/courses/regression_with_r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/regression_with_r/</guid>
+      <description>Course level: Foundation&#xA;Next live dates: TBC Contact us to request training details.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on S-cubed</title>
+    <link>http://localhost:4321/categories/education/</link>
+    <description>Recent content in Education on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:4321/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inferential statistics</title>
+      <link>http://localhost:4321/courses/inferential_statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/inferential_statistics/</guid>
+      <description>Course level: Foundation&#xA;Self-paced course available FREE here&#xA;Course description The aim of statistical analysis is often to make inferences about a target population of interest based on a random sample from it. Inferences such as these require inferential statistics.&#xA;This micro-course will introduce two of the most common inferential statistics: p-values and confidence intervals. Although these statistics are widely used across many disciplines, their interpretation can be tricky, which can lead to them being misrepresented.</description>
+    </item>
+    <item>
+      <title>Introduction to R with Tidyverse</title>
+      <link>http://localhost:4321/courses/intro_r_tidyverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/intro_r_tidyverse/</guid>
+      <description>Course level: Foundation&#xA;Next live dates: 15 - 16th June, 2024.&#xA;Course description R is a popular open-source programming language used by data scientists, statisticians, social &amp;amp; health researchers, and many more across a wide range of disciplines. R is particularly appealing to researchers as it is free to access, designed to encourage collaborative and reproducible data analysis, and is constantly evolving to include the latest research developments.&#xA;This two-day workshop is designed to equip PhD students, academics, and professional researchers across various disciplines with the essential skills to leverage the power of R and Tidyverse for their academic research.</description>
+    </item>
+    <item>
+      <title>Spatial data analysis with R</title>
+      <link>http://localhost:4321/courses/spatial_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/spatial_data_analysis/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: TBC Contact us to request training details&#xA;Course description Spatial data analysis allows us to go beyond traditional investigation of data, and uncover relationships and patterns based on where things are. This adds an extra layer of understanding of our data which can aid us when making inferences and predictions.&#xA;Spatial data analysis has a wide range of applications across many different sectors. For example, improving access to healthcare, increasing efficiency in transport networks, identifying areas of expansion in retail and hospitality, and developing approaches to environmental preservation.</description>
+    </item>
+  </channel>
+</rss>

@@ -8,11 +8,18 @@
     <language>en</language>
     <atom:link href="http://localhost:4321/categories/modelling/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Introduction to Generalised Additive Models with R</title>
+      <link>http://localhost:4321/courses/generalised_additive_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/generalised_additive_models/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: TBC ( Contact us to request training details)</description>
+    </item>
+    <item>
       <title>Introduction to regression with R</title>
       <link>http://localhost:4321/courses/regression_with_r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/courses/regression_with_r/</guid>
-      <description>Course level: Foundation&#xA;Next live dates: TBC Contact us to request training details.</description>
+      <description>Course level: Foundation&#xA;Next live dates: TBC Contact us to request training details.&#xA;Course description Regression analysis is one of the most widely used and powerful quantitative analysis methods used across almost every sector. Regression models were designed to investigate the relationship between an outcome of interest and a set of explanatory variables. These methods can then be used to make inferences about underlying relationships between variables, while accounting for confounding factors, and can be used to make predictions based on existing data.</description>
     </item>
   </channel>
 </rss>

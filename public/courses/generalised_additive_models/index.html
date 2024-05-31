@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.126.1">
-<title>Palmer Penguins | S-cubed</title>
+<title>Introduction to Generalised Additive Models with R | S-cubed</title>
 
 
 <meta property="twitter:site" content="@sophiestats10">
@@ -24,12 +24,12 @@
   
     
   
-<meta name="description" content="Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites.">
+<meta name="description" content="A 3-day step beyond GLMs to flexible modelling with generalised additive models">
 
 
 <meta property="og:site_name" content="S-cubed">
-<meta property="og:title" content="Palmer Penguins | S-cubed">
-<meta property="og:description" content="Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites." />
+<meta property="og:title" content="Introduction to Generalised Additive Models with R | S-cubed">
+<meta property="og:description" content="A 3-day step beyond GLMs to flexible modelling with generalised additive models" />
 <meta property="og:type" content="page" />
 <meta property="og:url" content="http://localhost:4321/courses/generalised_additive_models/" />
 <meta property="og:locale" content="en">
@@ -44,12 +44,11 @@
     
     
   
-  <meta itemprop="name" content="Palmer Penguins">
-  <meta itemprop="description" content="“Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1
-Since I began building websites in Y2K, I’ve lost count how many times the phrase “…there’s got to be a better way to do this” has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid TABLE.">
-  <meta itemprop="datePublished" content="2019-07-02T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2019-07-02T00:00:00+00:00">
-  <meta itemprop="wordCount" content="424">
+  <meta itemprop="name" content="Introduction to Generalised Additive Models with R">
+  <meta itemprop="description" content="Course level: Intermediate
+Next live dates: TBC ( Contact us to request training details)
+Course description Generalised additive models (GAMs) take regression to the next level, allowing a more flexible exploration of our data. Unlike generalised linear models, GAMs do not assume a linear relationship between the outcome and covariate(s). Using smoothing functions, we can explore nonlinear trends, such as the impact of temperature on barbecue food sales, or the relationship between income and happiness.">
+  <meta itemprop="wordCount" content="484">
   <meta itemprop="image" content="http://localhost:4321/courses/generalised_additive_models/featured-hex.png">
   <meta itemprop="keywords" content="Hugo-Site">
   
@@ -107,141 +106,97 @@ Since I began building websites in Y2K, I’ve lost count how many times the phr
   <section class="page-content mw7 center">
     <article class="post-content pa0 ph4-l">
       <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Palmer Penguins</h1>
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Introduction to Generalised Additive Models with R</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure">A 3-day step beyond GLMs to flexible modelling with generalised additive models</h4>
         
         
-        
 
-      
-      <div class="ph0 pt5">
-        
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-      
-  <a class="btn-links mr2 ba dib" href="https://allisonhorst.github.io/palmerpenguins/" target="_blank" rel="noopener"><i class="fas fa-door-open fa-lg fa-fw mr2"></i>website</a>
-
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-      
-  <a class="btn-links mr2 ba dib" href="https://github.com/allisonhorst/palmerpenguins/" target="_blank" rel="noopener"><i class="fab fa-github fa-lg fa-fw mr2"></i>code</a>
-
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-      
-  <a class="btn-links mr2 ba dib" href="https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/" target="_blank" rel="noopener"><i class="far fa-newspaper fa-lg fa-fw mr2"></i>Blog post</a>
-
-
-      </div>
       
 
       </header>
       <section class="post-body pt5 pb4">
-        
+        <p><strong>Course level: Intermediate</strong></p>
+<p><strong>Next live dates: TBC</strong> (
+<a href="mailto:sophie.a.lee10@gmail.com">Contact us to request training details</a>)</p>
+<p><img src="wiggly.jpg" alt="Photo by Kyle Bushnell on Unsplash"></p>
+<hr>
 
 
 
-<h3 id="grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">“Grid is the very first CSS module created specifically to solve the layout problems we&rsquo;ve all been hacking our way around for as long as we&rsquo;ve been making websites.”
-  <a href="#grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+
+<h3 id="course-description">Course description
+  <a href="#course-description"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0h24v24H0z" fill="currentColor"></path>
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
     </svg></a>
 </h3>
-<p><em>— 
-<a href="http://chris.house/blog/a-complete-guide-css-grid-layout/" target="_blank" rel="noopener">Chris House, A Complete Guide to CSS Grid Layout</a></em> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<hr>
-<p>Since I began building websites in Y2K, I&rsquo;ve lost count how many times the phrase &ldquo;&hellip;there&rsquo;s got to be a better way to do this&rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid <code>TABLE</code>.</p>
-<p>Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You&rsquo;d be surprised (or maybe you wouldn&rsquo;t) how challenging the standard header, content, sidebar, footer layout could be to actually get right.</p>
-<figure><img src="/courses/generalised_additive_models/css-grid-cover.png"
-    alt="Traditional right sidebar layout"><figcaption>
-      <p>A visual example of the traditional right sidebar layout</p>
-    </figcaption>
-</figure>
-
+<p>Generalised additive models (GAMs) take regression to the next level, allowing a more flexible exploration of our data. Unlike generalised linear models, GAMs do not assume a linear relationship between the outcome and covariate(s). Using smoothing functions, we can explore nonlinear trends, such as the impact of 
+<a href="https://ahdb.org.uk/news/consumer-insight-summer-2023-bbqs-took-a-hit-as-sunshine-hours-lower-in-august" target="_blank" rel="noopener">temperature on barbecue food sales</a>, or the 
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10068796/" target="_blank" rel="noopener">relationship between income and happiness</a>. GAMs strike the balance between flexibility offered by machine learning, whilst ensuring that findings are interpretable, and avoiding potential issues with overfitting that can occur with some machine learning methods.</p>
+<p>In this online course, participants will learn the theory behind generalised additive models and apply this to real data using R with the mgcv package. Participants will be able to interpret, visualise and communicate results of GAMs, and use diagnostic tools to ensure models are valid and robust. We will explore different types of smooths that can be applied to models, including how they can provide a relatively uncomplicated way to include space and time into models. All analysis will be applied using R, with an emphasis on creating clear, tidy, reproducible code.</p>
+<p>The course will consist of a combination of theory-based sessions and hands-on practical exercises to ensure that participants have the tools to apply the approaches taught in this course to their own data immediately.</p>
 <hr>
 
 
 
 
-<h3 id="dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn"><dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
-  <a href="#dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<h3 id="outline">Outline
+  <a href="#outline"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0h24v24H0z" fill="currentColor"></path>
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
     </svg></a>
 </h3>
-<p>A proper grid is what we always wanted, no &hellip; <em>needed</em> to build websites with a solid, unbreakable structure. And that&rsquo;s why I used it in this theme. I call this feature a &ldquo;scaffold&rdquo; because none of the <em>content</em> is laid out on this grid. Only the main <em>structure</em>: consisting of the <code>header</code>, <code>footer</code>, <code>main</code>, <code>aside</code>, and <code>footer</code>. As you can tell by this quote from the 
-<a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener">W3C</a> on the candidate recommendation itself, Grid is the perfect tool for the job:</p>
-<blockquote>
-
-
-
-
-<h5 id="css-grid-layout-module">CSS Grid Layout Module
-  <a href="#css-grid-layout-module"></a>
-</h5>
-<p>This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.</p>
-<p>— <em>W3C</em></p>
-</blockquote>
-<p>CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#458;font-weight:bold">grid-container</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">display</span>: <span style="color:#000;font-weight:bold">grid</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">grid-template-columns</span>: <span style="color:#900;font-weight:bold">repeat</span>(<span style="color:#099">6</span>, <span style="color:#099">1</span>fr);
-</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">grid-template-rows</span>: <span style="color:#900;font-weight:bold">repeat</span>(<span style="color:#099">3</span>, <span style="color:#000;font-weight:bold">auto</span>);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
-
-
-
-<h4 id="what-an-amazing-time-to-be-a-web-developer-anyway-i-hope-you-enjoy-this-feature-that-youll-probably-never-notice-or-even-see-maybe-thats-the-best-part-of-a-good-user-interface--the-hidden-stuff-that-just-works">What an amazing time to be a web developer. Anyway, I hope you enjoy this &ldquo;feature&rdquo; that you&rsquo;ll probably never notice or even see. Maybe that&rsquo;s the best part of a good user interface – the hidden stuff that just works.
-  <a href="#what-an-amazing-time-to-be-a-web-developer-anyway-i-hope-you-enjoy-this-feature-that-youll-probably-never-notice-or-even-see-maybe-thats-the-best-part-of-a-good-user-interface--the-hidden-stuff-that-just-works"></a>
-</h4>
-<div class="footnotes" role="doc-endnotes">
+<p>Topics covered in this course include:</p>
+<ul>
+<li>Re-introduction of generalised linear models</li>
+<li>Introduction to generalised additive models and smoothing splines</li>
+<li>Fitting GAMs using R</li>
+<li>Interpretation and visualisation of model results</li>
+<li>Model diagnostics and validation</li>
+<li>Extensions of GAMs: multi-dimensional smooths, temporal and spatial applications of GAMs, Bayesian interpretations of GAMs</li>
+</ul>
 <hr>
-<ol>
-<li id="fn:1">
-<p>The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: 
-<a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener">A Complete Guide to Grid</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
+
+
+
+
+<h3 id="target-audience">Target audience
+  <a href="#target-audience"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>This course is designed for anyone that would like to gain a deeper, more flexible understanding of their data, and explore non-linear, multi-dimensional relationships between variables.</p>
+<p>This course does not require any prior understanding of generalised additive models. Participants are expected to be comfortable with loading, tidying, and visualising data in RStudio using the Tidyverse package (I offer a short course on everything you need to know 
+<a href="https://scubed.netlify.app/courses/intro_r_tidyverse/" target="_blank" rel="noopener">here!</a>). Although this course does begin with a re-cap of generalised linear models, ideally participants will have some prior understanding of model interpretations and diagnostics (if you have never fitted a regression model and want to learn more, consider taking our 
+<a href="https://scubed.netlify.app/courses/regression_with_r/" target="_blank" rel="noopener">Introduction to Regression with R course</a> first).</p>
+<hr>
+
+
+
+
+<h3 id="learning-outcomes">Learning outcomes
+  <a href="#learning-outcomes"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>By the end of this course, participants can expect to have a robust understanding of generalised additive models and their applications in R. They will understand the different smooth splines available, and how to choose the most appropriate for their application. Participants will be able confidently fit and interpret models, and visualise smooth functions to communicate results. They will be able to diagnose models and check their validity, ensuring reliability of their results. All this will be carried out using reproducible, tidy R code.</p>
 
         
         <details closed class="f6 fw7 input-reset">
   <dl class="f6 lh-copy">
     <dt class="fw7">Posted on:</dt>
-    <dd class="fw5 ml0">July 2, 2019</dd>
+    <dd class="fw5 ml0">January 1, 0001</dd>
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">2 minute read, 424 words</dd>
+    <dd class="fw5 ml0">3 minute read, 484 words</dd>
   </dl>
   
   <dl class="f6 lh-copy">
     <dt class="fw7">Categories:</dt>
-    <dd class="fw5 ml0"> <a href="http://localhost:4321/categories/theme-features">Theme Features</a>  <a href="http://localhost:4321/categories/r">R</a>  <a href="http://localhost:4321/categories/package">package</a> </dd>
+    <dd class="fw5 ml0"> <a href="http://localhost:4321/categories/education">Education</a>  <a href="http://localhost:4321/categories/modelling">Modelling</a>  <a href="http://localhost:4321/categories/r">R</a> </dd>
   </dl>
   
   
@@ -269,12 +224,12 @@ Since I began building websites in Y2K, I’ve lost count how many times the phr
   
   
     <a class="prev dtc pr2 tl v-top fw6"
-    href="http://localhost:4321/courses/bayesian_stats/">&larr; Palmer Penguins</a>
+    href="http://localhost:4321/courses/inferential_statistics/">&larr; Inferential statistics</a>
   
   
   
     <a class="next dtc pl2 tr v-top fw6"
-    href="http://localhost:4321/courses/intro_stats/">Palmer Penguins &rarr;</a>
+    href="http://localhost:4321/courses/intro_r_tidyverse/">Introduction to R with Tidyverse &rarr;</a>
   
 </div>
 

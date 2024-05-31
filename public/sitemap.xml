@@ -125,16 +125,7 @@
     <loc>http://localhost:4321/courses/bayesian_stats/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/courses/generalised_additive_models/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/courses/intro_stats/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/courses/regression_with_r/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/courses/statistical_thinking/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/blog/built-in-contact-form/</loc>
@@ -163,9 +154,17 @@
   </url><url>
     <loc>http://localhost:4321/courses/inferential_statistics/</loc>
   </url><url>
+    <loc>http://localhost:4321/courses/generalised_additive_models/</loc>
+  </url><url>
     <loc>http://localhost:4321/courses/intro_r_tidyverse/</loc>
   </url><url>
+    <loc>http://localhost:4321/courses/regression_with_r/</loc>
+  </url><url>
+    <loc>http://localhost:4321/courses/statistical_thinking/</loc>
+  </url><url>
     <loc>http://localhost:4321/license/</loc>
+  </url><url>
+    <loc>http://localhost:4321/categories/modelling/</loc>
   </url><url>
     <loc>http://localhost:4321/categories/spatial-data-analysis/</loc>
   </url><url>

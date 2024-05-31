@@ -1,68 +1,56 @@
 ---
-title: "Palmer Penguins"
-subtitle: ""
-excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
-date: 2019-07-02
-author: "Eric Anderson"
+title: "Introduction to Generalised Additive Models with R"
+subtitle: "A 3-day step beyond GLMs to flexible modelling with generalised additive models"
+excerpt: "A 3-day course to take your modelling to the next level. Go beyond generalised linear models with their smoother, more flexible cousins: generalised additive models!"
+author: "Sophie Lee"
 featured: true
 draft: false
 tags:
 - hugo-site
 categories:
-- Theme Features
+- Education
+- Modelling
 - R
-- package
 # layout options: single or single-sidebar
 layout: single-sidebar
-links:
-- icon: door-open
-  icon_pack: fas
-  name: website
-  url: https://allisonhorst.github.io/palmerpenguins/
-- icon: github
-  icon_pack: fab
-  name: code
-  url: https://github.com/allisonhorst/palmerpenguins/
-- icon: newspaper
-  icon_pack: far
-  name: Blog post
-  url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
 ---
 
-### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
+**Course level: Intermediate**
 
-*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]
+**Next live dates: TBC** ([Contact us to request training details](mailto:sophie.a.lee10@gmail.com))
+
+![Photo by Kyle Bushnell on Unsplash](wiggly.jpg)
+
+--- 
+
+### Course description
+Generalised additive models (GAMs) take regression to the next level, allowing a more flexible exploration of our data. Unlike generalised linear models, GAMs do not assume a linear relationship between the outcome and covariate(s). Using smoothing functions, we can explore nonlinear trends, such as the impact of [temperature on barbecue food sales](https://ahdb.org.uk/news/consumer-insight-summer-2023-bbqs-took-a-hit-as-sunshine-hours-lower-in-august), or the [relationship between income and happiness](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10068796/). GAMs strike the balance between flexibility offered by machine learning, whilst ensuring that findings are interpretable, and avoiding potential issues with overfitting that can occur with some machine learning methods.
+
+In this online course, participants will learn the theory behind generalised additive models and apply this to real data using R with the mgcv package. Participants will be able to interpret, visualise and communicate results of GAMs, and use diagnostic tools to ensure models are valid and robust. We will explore different types of smooths that can be applied to models, including how they can provide a relatively uncomplicated way to include space and time into models. All analysis will be applied using R, with an emphasis on creating clear, tidy, reproducible code.
+
+The course will consist of a combination of theory-based sessions and hands-on practical exercises to ensure that participants have the tools to apply the approaches taught in this course to their own data immediately.
+
+--- 
+
+### Outline
+Topics covered in this course include:
+
+- Re-introduction of generalised linear models
+- Introduction to generalised additive models and smoothing splines
+- Fitting GAMs using R
+- Interpretation and visualisation of model results
+- Model diagnostics and validation
+- Extensions of GAMs: multi-dimensional smooths, temporal and spatial applications of GAMs, Bayesian interpretations of GAMs
 
 ---
 
-Since I began building websites in Y2K, I've lost count how many times the phrase "...there's got to be a better way to do this" has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid `TABLE`.
+### Target audience
+This course is designed for anyone that would like to gain a deeper, more flexible understanding of their data, and explore non-linear, multi-dimensional relationships between variables.
 
-Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You'd be surprised (or maybe you wouldn't) how challenging the standard header, content, sidebar, footer layout could be to actually get right.
-
-{{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
+This course does not require any prior understanding of generalised additive models. Participants are expected to be comfortable with loading, tidying, and visualising data in RStudio using the Tidyverse package (I offer a short course on everything you need to know [here!](https://scubed.netlify.app/courses/intro_r_tidyverse/)). Although this course does begin with a re-cap of generalised linear models, ideally participants will have some prior understanding of model interpretations and diagnostics (if you have never fitted a regression model and want to learn more, consider taking our [Introduction to Regression with R course](https://scubed.netlify.app/courses/regression_with_r/) first).
 
 ---
 
-### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
+### Learning outcomes
+By the end of this course, participants can expect to have a robust understanding of generalised additive models and their applications in R. They will understand the different smooth splines available, and how to choose the most appropriate for their application. Participants will be able confidently fit and interpret models, and visualise smooth functions to communicate results. They will be able to diagnose models and check their validity, ensuring reliability of their results. All this will be carried out using reproducible, tidy R code.
 
-A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job:
-
-> ##### CSS Grid Layout Module
->
-> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
->
-> — _W3C_
-
-CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:
-
-```css
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, auto);
-}
-```
-
-#### What an amazing time to be a web developer. Anyway, I hope you enjoy this "feature" that you'll probably never notice or even see. Maybe that's the best part of a good user interface – the hidden stuff that just works.
-
-[^1]: The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)

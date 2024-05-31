@@ -157,13 +157,6 @@
     </item>
     <item>
       <title>Palmer Penguins</title>
-      <link>http://localhost:4321/courses/generalised_additive_models/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/courses/generalised_additive_models/</guid>
-      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid TABLE.</description>
-    </item>
-    <item>
-      <title>Palmer Penguins</title>
       <link>http://localhost:4321/courses/intro_stats/</link>
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/courses/intro_stats/</guid>
@@ -219,11 +212,25 @@
       <description>Thank you to all the folks who have contributed both technical and creative skills to this project:&#xA;Desirée De Leon &amp;#x1f992; (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)&#xA;Garrick Aden-Buie &amp;#x1f9d9; (debugged headroom.js and lent his panelset.js code to the theme)&#xA;Allison Horst &amp;#x1f415; (awesome illustrations of campfires, seedlings, and evergreens, as well as my R Markdown hedgehog mascot &amp;#x1f994;)</description>
     </item>
     <item>
+      <title>Data visualisation with ggplot2</title>
+      <link>http://localhost:4321/courses/data_viz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/data_viz/</guid>
+      <description>Course level: Foundation&#xA;Next live dates: TBC ( Contact us to request training details)&#xA;Course description Data visualisation is one of the most important steps in any analysis journey. Visualisations allow us to explore our data, identify errors and outliers, generate hypotheses about possible relationships between variables, and communicate results clearly and efficiently. ggplot2 is a powerful R package that was designed to create publication-quality graphics in seconds. The joy of ggplot2 is its flexibility: graphs are built in layers which can be easily customised, ensuring novel plots to fit almost any situation.</description>
+    </item>
+    <item>
       <title>Inferential statistics</title>
       <link>http://localhost:4321/courses/inferential_statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/courses/inferential_statistics/</guid>
       <description>Course level: Foundation&#xA;Self-paced course available FREE here&#xA;Course description The aim of statistical analysis is often to make inferences about a target population of interest based on a random sample from it. Inferences such as these require inferential statistics.&#xA;This micro-course will introduce two of the most common inferential statistics: p-values and confidence intervals. Although these statistics are widely used across many disciplines, their interpretation can be tricky, which can lead to them being misrepresented.</description>
+    </item>
+    <item>
+      <title>Introduction to Generalised Additive Models with R</title>
+      <link>http://localhost:4321/courses/generalised_additive_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/generalised_additive_models/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: TBC ( Contact us to request training details)&#xA;Course description Generalised additive models (GAMs) take regression to the next level, allowing a more flexible exploration of our data. Unlike generalised linear models, GAMs do not assume a linear relationship between the outcome and covariate(s). Using smoothing functions, we can explore nonlinear trends, such as the impact of temperature on barbecue food sales, or the relationship between income and happiness.</description>
     </item>
     <item>
       <title>Introduction to R with Tidyverse</title>

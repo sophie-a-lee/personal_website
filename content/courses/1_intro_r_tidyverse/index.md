@@ -9,6 +9,7 @@ excerpt: A 2-day introduction to the wonders of R and Tidyverse. Learn to load, 
 layout: single
 subtitle: A 2-day introduction to the wonders of R.
 title: Introduction to R with Tidyverse
+weight: 1
 links:
 - icon: door-open
   icon_pack: fas

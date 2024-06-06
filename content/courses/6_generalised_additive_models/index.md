@@ -1,5 +1,6 @@
 ---
 author: Sophie Lee
+weight: 6
 categories:
 - Education
 - Statistics
@@ -13,7 +14,7 @@ title: Generalised additive models with R
 
 **Course level: Intermediate**
 
-**Next live dates: TBC** ([Contact us to request training details](mailto:sophie.a.lee10@gmail.com))
+**Next live dates: TBC** ([Contact us to request training details](/contact))
 
 ![Photo by Kyle Bushnell on Unsplash](wiggly.jpg)
 

@@ -5,6 +5,7 @@ categories:
 - Statistics
 - R
 draft: false
+weight: 2
 excerpt: A 3-day comprehensive introduction to spatial data, visualisation, and analysis. Unlock the full potential of your analysis and gain a more nuanced, geographically informed understanding of your data.
 layout: single
 subtitle: A 3-day comprehensive introduction to spatial data, visualisation, and analysis.
@@ -12,8 +13,8 @@ title: Spatial data analysis with R
 ---
 
 **Course level: Intermediate**
-
-**Next live dates: TBC** [Contact us to request training details](mailto:sophie.lee@scubeddstatistics.co.uk)
+ 
+**Next live dates: TBC** [Contact us to request training details](/contact)
 
 ![Strength of connections in Southeast Brazil based on different spatial assumptions.](connection_brazil.png)
 

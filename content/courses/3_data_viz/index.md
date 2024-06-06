@@ -1,5 +1,6 @@
 ---
 author: Sophie Lee
+weight: 3
 categories:
 - Education
 - Statistics
@@ -13,7 +14,7 @@ title: Data visualisation with ggplot2
 
 **Course level: Foundation**
 
-**Next live dates: TBC** ([Contact us to request training details](mailto:sophie.a.lee10@gmail.com))
+**Next live dates: TBC** [(Contact us to request training details)](/contact)
 
 ![Illustration by Alison Horst](ggplot_cartoon.png)
 

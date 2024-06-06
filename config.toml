@@ -123,16 +123,6 @@ enableEmoji = true
     title = "Publications"
     url = "/publications/"
     weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 4
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
-    weight = 5
     
   # Configure footer  
   [[menu.footer]]

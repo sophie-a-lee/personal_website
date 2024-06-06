@@ -1,5 +1,6 @@
 ---
 author: Sophie Lee
+weight: 9
 categories:
 - Education
 - Statistics
@@ -17,7 +18,7 @@ links:
 
 **Course level: foundation**
 
-**Next live course dates: TBC** [Click here to request training details.](mailto:sophie.a.lee10@gmail.com)
+**Next live course dates: TBC** [Click here to request training details.](/contact)
 
 ---
 

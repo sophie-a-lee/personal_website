@@ -1,5 +1,6 @@
 ---
 author: Sophie Lee
+weight: 7
 categories:
 - Education
 - Statistics
@@ -13,7 +14,7 @@ title: Regression with R
 
 **Course level: Foundation**
 
-**Next live dates: TBC** [Contact us to request training details.](mailto:sophie.lee@scubedstatistics.co.uk)
+**Next live dates: TBC** [Contact us to request training details.](/contact)
 
 --- 
 

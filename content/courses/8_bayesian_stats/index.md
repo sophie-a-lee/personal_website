@@ -1,5 +1,6 @@
 ---
 author: Sophie Lee
+weight: 8
 categories:
 - Education
 - Statistics
@@ -13,7 +14,7 @@ title: Bayesian statistics with R
 
 **Course level: Intermediate**
 
-**Next live dates: TBC** [(Contact us to request training details)](mailto:sophie.a.lee10@gmail.com).
+**Next live dates: TBC** [(Contact us to request training details)](/contact).
 
 ---
 

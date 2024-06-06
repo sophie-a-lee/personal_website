@@ -31,7 +31,7 @@ enableEmoji = true
   description = "Making statistics seem less scary."
   favicon = "/img/favicon.ico"
   logo = "/img/favicon.ico"
-  mainSections = ["courses", "research", "talks"]
+  mainSections = ["courses", "publications", "talks", "blog"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -119,16 +119,20 @@ enableEmoji = true
     url = "/courses/"
     weight = 2
   [[menu.header]]
-    name = "Research"
-    title = "Research"
-    url = "/research/"
+    name = "Publications"
+    title = "Publications"
+    url = "/publications/"
     weight = 3
   [[menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talk/"
     weight = 4
-
+  [[menu.header]]
+    name = "Blog"
+    title = "Blog"
+    url = "/blog/"
+    weight = 5
     
   # Configure footer  
   [[menu.footer]]
@@ -141,11 +145,6 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]

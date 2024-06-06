@@ -6,7 +6,7 @@ categories:
 - R
 draft: false
 excerpt: A 3-day introduction to thinking and behaving like a Bayesian! Understand the concepts behind Bayesian statistics, carry out statistical analysis using Bayesian approaches in R, and learn to interpret results from a Bayesian perspective
-layout: single-sidebar
+layout: single
 subtitle: A 3-day introduction to thinking and analysing like a Bayesian.
 title: Bayesian statistics with R
 ---

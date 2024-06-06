@@ -6,7 +6,7 @@ categories:
 - R
 draft: false
 excerpt: A self-paced online introduction to all things statistics! Go from zero to regression via visualisation, summary statistics, and hypothesis testing. 
-layout: single-sidebar
+layout: single
 links:
 - icon: door-open
   icon_pack: fas

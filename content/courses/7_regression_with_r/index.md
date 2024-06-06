@@ -6,7 +6,7 @@ categories:
 - R
 draft: false
 excerpt: A 2-day introduction to one of the most widely used and powerful tools in quantitative analysis...regression! A comprehensive introduction to generalised linear models with applications in R.
-layout: single-sidebar
+layout: single
 subtitle: A 2-day course to one of the most widely used quantitative tools, regression
 title: Regression with R
 ---

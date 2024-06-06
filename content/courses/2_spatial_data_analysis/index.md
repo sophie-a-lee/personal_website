@@ -6,7 +6,7 @@ categories:
 - R
 draft: false
 excerpt: A 3-day comprehensive introduction to spatial data, visualisation, and analysis. Unlock the full potential of your analysis and gain a more nuanced, geographically informed understanding of your data.
-layout: single-sidebar
+layout: single
 subtitle: A 3-day comprehensive introduction to spatial data, visualisation, and analysis.
 title: Spatial data analysis with R
 ---

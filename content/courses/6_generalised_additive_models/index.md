@@ -6,7 +6,7 @@ categories:
 - R
 draft: false
 excerpt: A 3-day course to take your modelling to the next level. Go beyond generalised linear models with their smoother, more flexible cousins, generalised additive models!
-layout: single-sidebar
+layout: single
 subtitle: A 3-day step beyond GLMs to flexible modelling with generalised additive models
 title: Generalised additive models with R
 ---

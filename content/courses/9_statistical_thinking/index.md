@@ -5,7 +5,7 @@ categories:
 - Statistics
 draft: false
 excerpt: A 2-day course introducing the concept of statistical thinking, thinking critically in a data-driven world. Statistical thinking is a necessary skill, not just in work but in our personal lives too, allowing us to sift through conflicting claims to make decisions based on evidence.
-layout: single-sidebar
+layout: single
 subtitle: A 2-day introduction to statistical thinking, or data-driven critical thinking.
 title: Statistical thinking
 links:

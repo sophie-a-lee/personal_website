@@ -6,7 +6,7 @@ categories:
 draft: false
 excerpt: "A free, self-paced micro-course introducing the two most common inferential statistics, p-values and confidence intervals "
 featured: true
-layout: single-sidebar
+layout: single
 links:
 - icon: door-open
   icon_pack: fas

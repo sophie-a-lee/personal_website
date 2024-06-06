@@ -6,7 +6,7 @@ categories:
 - R
 draft: false
 excerpt: A 2-day introduction to the wonders of R and Tidyverse. Learn to load, manipulate, explore, and visualise data in R, and create high quality reports using RMarkdown.
-layout: single-sidebar
+layout: single
 subtitle: A 2-day introduction to the wonders of R.
 title: Introduction to R with Tidyverse
 links:

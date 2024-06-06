@@ -1,6 +1,0 @@
-
-http://scubed.rbind.io/*         https://scubed.rbind.io/:splat  301!
-http://scubed.netlify.io/*         https://scubed.rbind.io/:splat  301!
-
-http://scubed.rbind.io/about/*  https://scubed.rbind.io/about/:splat  301!http://scubed.rbind.io/courses/*     https://scubed.rbind.io/courses/:splat  301!
-

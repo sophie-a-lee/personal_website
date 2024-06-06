@@ -28,6 +28,6 @@ show_comments: false # see site config to choose Disqus or Utterances
 # for single-sidebar layout only
 sidebar:
   text_link_label: View all courses
-text_link_url: /courses
+  text_link_url: /courses
   show_sidebar_adunit: true # show ad container
 ---

@@ -1,16 +1,14 @@
 ---
-title: "Introduction to R with Tidyverse"
-subtitle: "A 2-day introduction to the wonders of R."
-excerpt: "A 2-day introduction to the wonders of R and Tidyverse. Learn to load, manipulate, explore, and visualise data in R, and create high quality reports using RMarkdown."
-author: "Sophie Lee"
-featured: true
-draft: false
-tags:
-  - hugo-site
+author: Sophie Lee
 categories:
-  - Education
-  - R
+- Education
+- Statistics
+- R
+draft: false
+excerpt: A 2-day introduction to the wonders of R and Tidyverse. Learn to load, manipulate, explore, and visualise data in R, and create high quality reports using RMarkdown.
 layout: single-sidebar
+subtitle: A 2-day introduction to the wonders of R.
+title: Introduction to R with Tidyverse
 links:
 - icon: door-open
   icon_pack: fas

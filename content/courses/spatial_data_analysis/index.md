@@ -1,18 +1,14 @@
 ---
-title: "Spatial data analysis with R"
-subtitle: "A 3-day comprehensive introduction to spatial data, visualisation, and analysis."
-excerpt: "A 3-day comprehensive introduction to spatial data, visualisation, and analysis. Unlock the full potential of your analysis and gain a more nuanced. geographically informed understanding of your data."
-date: 
-author: "Sophie Lee"
-draft: false
-tags:
-  - hugo-site
+author: Sophie Lee
 categories:
-  - Education
-  - R
-  - Spatial data analysis
-# layout options: single or single-sidebar
+- Education
+- Statistics
+- R
+draft: false
+excerpt: A 3-day comprehensive introduction to spatial data, visualisation, and analysis. Unlock the full potential of your analysis and gain a more nuanced, geographically informed understanding of your data.
 layout: single-sidebar
+subtitle: A 3-day comprehensive introduction to spatial data, visualisation, and analysis.
+title: Spatial data analysis with R
 ---
 
 **Course level: Intermediate**

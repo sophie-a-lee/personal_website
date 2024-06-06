@@ -1,18 +1,13 @@
 ---
-title: "Introduction to statistical thinking"
-subtitle: "A 2-day introduction to statistical thinking, or data-driven critical thinking."
-excerpt: "A 2-day course introducing the concept of statistical thinking: thinking critically in a data-driven world. Statistical thinking is a necessary skill, not just in work but in our personal lives too, allowing us to sift through conflicting claims to make decisions based on evidence."
-date: 
-author: "Sophie Lee"
-featured: true
-draft: false
-tags:
-- hugo-site
+author: Sophie Lee
 categories:
 - Education
 - Statistics
-# layout options: single or single-sidebar
+draft: false
+excerpt: A 2-day course introducing the concept of statistical thinking, thinking critically in a data-driven world. Statistical thinking is a necessary skill, not just in work but in our personal lives too, allowing us to sift through conflicting claims to make decisions based on evidence.
 layout: single-sidebar
+subtitle: A 2-day introduction to statistical thinking, or data-driven critical thinking.
+title: Statistical thinking
 links:
 - icon: github
   icon_pack: fab
@@ -22,7 +17,7 @@ links:
 
 **Course level: foundation**
 
-**Next live course dates: TBC** [Click here to request training details.](mailto:sophie.lee@scubedstatistics.co.uk)
+**Next live course dates: TBC** [Click here to request training details.](mailto:sophie.a.lee10@gmail.com)
 
 ---
 

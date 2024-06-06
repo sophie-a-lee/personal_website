@@ -1,21 +1,19 @@
 ---
-title: "Inferential statistics"
-subtitle: "A free micro-course demystifying p-values and confidence intervals;"
-excerpt: "A free, self-paced micro-course introducing the two most common inferential statistics: p-values and confidence intervals."
-author: "Sophie Lee"
-draft: false
-tags:
-- hugo-site
+author: Sophie Lee
 categories:
 - Education
 - Statistics
-# layout options: single or single-sidebar
+draft: false
+excerpt: "A free, self-paced micro-course introducing the two most common inferential statistics, p-values and confidence intervals "
+featured: true
 layout: single-sidebar
 links:
 - icon: door-open
   icon_pack: fas
   name: website
   url: https://equationsofdisease.com/courses/inferential-statistics/
+subtitle: "A free micro-course demystifying p-values and confidence intervals"
+title: Inferential statistics
 ---
 
 **Course level: Foundation**

@@ -1,18 +1,14 @@
 ---
-title: "Introduction to Generalised Additive Models with R"
-subtitle: "A 3-day step beyond GLMs to flexible modelling with generalised additive models"
-excerpt: "A 3-day course to take your modelling to the next level. Go beyond generalised linear models with their smoother, more flexible cousins: generalised additive models!"
-author: "Sophie Lee"
-featured: true
-draft: false
-tags:
-- hugo-site
+author: Sophie Lee
 categories:
 - Education
-- Modelling
+- Statistics
 - R
-# layout options: single or single-sidebar
+draft: false
+excerpt: A 3-day course to take your modelling to the next level. Go beyond generalised linear models with their smoother, more flexible cousins, generalised additive models!
 layout: single-sidebar
+subtitle: A 3-day step beyond GLMs to flexible modelling with generalised additive models
+title: Generalised additive models with R
 ---
 
 **Course level: Intermediate**

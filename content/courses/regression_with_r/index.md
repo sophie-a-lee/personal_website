@@ -1,19 +1,14 @@
 ---
-title: "Introduction to regression with R"
-subtitle: "A 2-day course to one of the most widely used quantitative tools: regression."
-excerpt: "A 2-day introduction to one of the most widely used and powerful tools in quantitative analysis: regression! A comprehensive introduction to generalised linear models with applications in R."
-date: 
-author: "Sophie Lee"
-featured: true
-draft: false
-tags:
-- hugo-site
+author: Sophie Lee
 categories:
 - Education
+- Statistics
 - R
-- Modelling
-# layout options: single or single-sidebar
+draft: false
+excerpt: A 2-day introduction to one of the most widely used and powerful tools in quantitative analysis...regression! A comprehensive introduction to generalised linear models with applications in R.
 layout: single-sidebar
+subtitle: A 2-day course to one of the most widely used quantitative tools, regression
+title: Regression with R
 ---
 
 **Course level: Foundation**
@@ -45,7 +40,9 @@ Topics covered as part of this course include:
 ### Target audience
 Anyone looking to gain a deeper understanding of their data, account for multiple variables within their analysis, and add one of the most powerful quantitative approaches to their toolkit. 
 
-This course does not require any prior statistical training, although understanding the interpretation of confidence intervals and p-values is helpful (for a brief introduction to inferential statistics, check out my [free course here](https://equationsofdisease.com/courses/inferential-statistics/)). participants are expected to be comfortable with loading and tidying data in RStudio using the Tidyverse package (I offer a short course on everything you need to know [here!](/courses/intro_r_tidyverse)).
+This course does not require any prior statistical training, although understanding the interpretation of confidence intervals and p-values is helpful (for a brief introduction to inferential statistics, check out my [free course here](https://equationsofdisease.com/courses/inferential-statistics/)). 
+
+Participants are expected to be comfortable with loading and tidying data in RStudio using the Tidyverse package (I offer a short course on everything you need to know [here!](/courses/intro_r_tidyverse)).
 
 --- 
 

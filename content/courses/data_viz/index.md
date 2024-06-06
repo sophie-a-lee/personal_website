@@ -1,19 +1,14 @@
 ---
-title: "Data visualisation with ggplot2"
-subtitle: "Create striking data visualisations using the ggplot2 package."
-excerpt: "A one-day course introducing the powerful, flexible data visualisation package, ggplot2. Create compelling visualisations that can be used to explore data, generate hypotheses, and communicate results."
-author: "Sophie Lee"
-featured: true
-draft: false
-tags:
-- hugo-site
+author: Sophie Lee
 categories:
 - Education
+- Statistics
 - R
-- Visualisation
-# layout options: single or single-sidebar
+draft: false
+excerpt: A one-day course introducing the powerful, flexible data visualisation package, ggplot2. Create compelling visualisations that can be used to explore data, generate hypotheses, and communicate results.
 layout: single-sidebar
-
+subtitle: Create striking data visualisations using the ggplot2 package
+title: Data visualisation with ggplot2
 ---
 
 **Course level: Foundation**

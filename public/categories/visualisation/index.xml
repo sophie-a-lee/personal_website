@@ -12,7 +12,7 @@
       <link>http://localhost:4321/courses/data_viz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/courses/data_viz/</guid>
-      <description>Course level: Foundation&#xA;Next live dates: TBC ( Contact us to request training details)</description>
+      <description>Course level: Foundation&#xA;Next live dates: TBC ( Contact us to request training details)&#xA;Course description Data visualisation is one of the most important steps in any analysis journey. Visualisations allow us to explore our data, identify errors and outliers, generate hypotheses about possible relationships between variables, and communicate results clearly and efficiently. ggplot2 is a powerful R package that was designed to create publication-quality graphics in seconds. The joy of ggplot2 is its flexibility: graphs are built in layers which can be easily customised, ensuring novel plots to fit almost any situation.</description>
     </item>
   </channel>
 </rss>

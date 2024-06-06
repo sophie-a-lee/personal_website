@@ -10,17 +10,17 @@
     <atom:link href="http://localhost:4321/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Palmer Penguins</title>
-      <link>http://localhost:4321/courses/bayesian_stats/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/courses/bayesian_stats/</guid>
-      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid TABLE.</description>
-    </item>
-    <item>
-      <title>Palmer Penguins</title>
       <link>http://localhost:4321/courses/intro_stats/</link>
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/courses/intro_stats/</guid>
       <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid TABLE.</description>
+    </item>
+    <item>
+      <title>Bayesian data analysis with R</title>
+      <link>http://localhost:4321/courses/bayesian_stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/bayesian_stats/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: TBC (Contact us to request training details).&#xA;Course description Throughout our lives, in everything we do, we will have some prior belief about what the result of an action will be, often based on previous experiences. For example, when I take the train to London, I expect to arrive around 20 minutes later than scheduled as UK trains are notoriously unreliable! Bayesian inference allows us to take account of our prior beliefs and incorporate them into our analysis using Bayes’ theorem.</description>
     </item>
     <item>
       <title>Data visualisation with ggplot2</title>

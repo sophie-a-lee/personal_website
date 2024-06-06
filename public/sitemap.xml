@@ -113,16 +113,19 @@
     <loc>http://localhost:4321/talk/seedling/</loc>
     <lastmod>2020-01-13T14:15:59-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/project/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/package/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/project/giraffes/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/courses/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/blog/css-grid-scaffold/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/package/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/courses/bayesian_stats/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/courses/intro_stats/</loc>
@@ -148,11 +151,17 @@
   </url><url>
     <loc>http://localhost:4321/about/main/</loc>
   </url><url>
+    <loc>http://localhost:4321/courses/bayesian_stats/</loc>
+  </url><url>
     <loc>http://localhost:4321/contributors/</loc>
+  </url><url>
+    <loc>http://localhost:4321/courses/data_viz/</loc>
   </url><url>
     <loc>http://localhost:4321/categories/education/</loc>
   </url><url>
     <loc>http://localhost:4321/courses/inferential_statistics/</loc>
+  </url><url>
+    <loc>http://localhost:4321/project/inferential_statistics/</loc>
   </url><url>
     <loc>http://localhost:4321/courses/generalised_additive_models/</loc>
   </url><url>
@@ -161,6 +170,8 @@
     <loc>http://localhost:4321/courses/regression_with_r/</loc>
   </url><url>
     <loc>http://localhost:4321/courses/statistical_thinking/</loc>
+  </url><url>
+    <loc>http://localhost:4321/project/intro_stats/</loc>
   </url><url>
     <loc>http://localhost:4321/license/</loc>
   </url><url>
@@ -171,5 +182,7 @@
     <loc>http://localhost:4321/courses/spatial_data_analysis/</loc>
   </url><url>
     <loc>http://localhost:4321/categories/statistics/</loc>
+  </url><url>
+    <loc>http://localhost:4321/categories/visualisation/</loc>
   </url>
 </urlset>

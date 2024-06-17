@@ -1,28 +1,22 @@
 ---
-title: A Blog That Works
+title: Blogs
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
-author: "The R Markdown Team @RStudio"
+  I write about statistics, education, and anything else I find interesting!
+author: "Sophie Lee"
 show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 show_author_byline: true
 show_post_date: true
 show_button_links: false
 # for listing page layout
-layout: list-sidebar # list, list-sidebar, list-grid
+layout: list # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Thoughts
+  title: Blogs
   description: |
-    This is a fully featured blog that supports categories,
-    tags, series, and pagination. Even this sidebar offers 
-    a ton of customizations.
-    
-    Check out the _index.md file in the /blog folder 
-    to edit this content. 
-  author: "The R Markdown Team @RStudio"
+    Thoguhts and musings about statistics, education, and other things that interest me!
+  author: "S-Cubed"
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
   categories_link: true
@@ -32,7 +26,7 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
-  author: "The R Markdown Team @RStudio"
+  author: "Sophie Lee"
   show_author_byline: true
   show_post_date: true
   show_comments: true # see site config to choose Disqus or Utterances

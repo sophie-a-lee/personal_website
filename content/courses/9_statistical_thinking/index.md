@@ -12,8 +12,12 @@ title: Statistical thinking
 links:
 - icon: github
   icon_pack: fab
-  name: code
+  name: code 
   url: https://github.com/sophie-a-lee/statistical_thinking/
+- icon: comments
+  icon_pack: fa
+  name: feedback
+  url: /feedback/statistical_thinking/
 ---
 
 **Course level: foundation**

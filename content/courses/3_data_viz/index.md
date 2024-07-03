@@ -14,7 +14,7 @@ title: Data visualisation with ggplot2
 
 **Course level: Foundation**
 
-**Next live dates: TBC** [(Contact us to request training details)](/contact)
+**Next live dates:** [**27 November**](https://www.ncrm.ac.uk/training/show.php?article=13619) 
 
 ![Illustration by Alison Horst](ggplot_cartoon.png)
 

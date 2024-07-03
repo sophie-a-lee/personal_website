@@ -99,6 +99,10 @@ enableEmoji = true
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
       url       = "https://orcid.org/0000-0002-2049-9756"
+  [[params.social]]
+      icon      = "mug-hot" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "buymeacoffee.com/sophie_a_lee"
 
 
 [taxonomies]

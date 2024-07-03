@@ -13,6 +13,10 @@ links:
   icon_pack: fas
   name: website
   url: https://equationsofdisease.com/courses/inferential-statistics/
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: /feedback/inferential_stats/
 subtitle: "A free micro-course demystifying p-values and confidence intervals"
 title: Inferential statistics
 ---

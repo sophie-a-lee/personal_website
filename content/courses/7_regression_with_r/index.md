@@ -10,6 +10,11 @@ excerpt: A 2-day introduction to one of the most widely used and powerful tools 
 layout: single
 subtitle: A 2-day course to one of the most widely used quantitative tools, regression
 title: Regression with R
+links:
+- icon: comments
+  icon_pack: fa
+  name: feedback
+  url: /feedback/regressions_r
 ---
 
 **Course level: Foundation**

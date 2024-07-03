@@ -14,7 +14,7 @@ title: Generalised additive models with R
 
 **Course level: Intermediate**
 
-**Next live dates: TBC** ([Contact us to request training details](/contact))
+**Next live dates: 9 - 12 December** (enrollment link coming soon).
 
 ![Photo by Kyle Bushnell on Unsplash](wiggly.jpg)
 

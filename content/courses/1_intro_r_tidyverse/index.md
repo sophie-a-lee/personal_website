@@ -15,6 +15,10 @@ links:
   icon_pack: fas
   name: Website
   url: https://instats.org/seminar/introduction-to-r-with-tidyverse-2542
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: /feedback/intro_r/
 - icon: github
   icon_pack: fab
   name: code
@@ -43,7 +47,6 @@ Topics covered in this workshop include:
 - Introduction to data management in R (including how to import data, how to tidy data and how to transform it ready for analysis)
 - Data visualisation using ggplot2
 - Exploratory data analysis and how to create clear summary tables
-- Introduction to RMarkdown to create high quality documents to communicate results
 - Best practices for reproducible research
 
 ---
@@ -56,4 +59,4 @@ This workshop is ideal for anyone with little or no prior experience with R codi
 ---
 
 ### Learning outcomes
-Upon completion of the 'Introduction to R with Tidyverse' workshop, participants will have gained an understanding of basic R programming and the Tidyverse packages. They will have acquired the skills to efficiently manipulate, transform, and clean data, and to create compelling visualizations to effectively communicate their research findings. Furthermore, they will have learned how to generate high quality documents containing these visualizations and findings using R Markdown and automate repetitive tasks, enhancing their research productivity and reducing the potential for errors.
+Upon completion of the 'Introduction to R with Tidyverse' workshop, participants will have gained an understanding of basic R programming and the Tidyverse packages. They will have acquired the skills to efficiently manipulate, transform, and clean data, and to create compelling visualizations to effectively communicate their research findings. 

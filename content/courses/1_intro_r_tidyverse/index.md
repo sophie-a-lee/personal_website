@@ -11,10 +11,10 @@ subtitle: A 2-day introduction to the wonders of R.
 title: Introduction to R with Tidyverse
 weight: 1
 links:
-- icon: door-open
+- icon: book-open
   icon_pack: fas
-  name: Website
-  url: https://instats.org/seminar/introduction-to-r-with-tidyverse-2542
+  name: Free materials
+  url: https://introduction-r-tidyverse.netlify.app/
 - icon: comments
   icon_pack: fas
   name: Feedback
@@ -27,7 +27,7 @@ links:
 
 **Course level: Foundation**
 
-**Next live dates:** [**15 - 16th June, 2024.**](https://instats.org/seminar/introduction-to-r-with-tidyverse-2542)
+**Next live dates:** [**24 - 26th September, 2024.**](https://www.prstats.org/course/introduction-to-r-using-tidyverse-tidy01/)
 
 ![Illustration by Alison Horst](happy_r_pic.png)
 

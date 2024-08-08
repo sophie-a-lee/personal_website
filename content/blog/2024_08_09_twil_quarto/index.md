@@ -122,7 +122,7 @@ This will add a toggle option to the sidebar of the book html output, allowing r
 ## What next?
 I am still fairly new to Quarto and its uses, some things I am hoping to finally figure out and share soon!
 
-![](https://media.giphy.com/media/Q8rwlNTcDAU3MuUzd7/giphy.gif?cid=790b7611exq17seruz9wdc0ty47ptkk0n8zh2l3n0g5xroff&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG04Y2hyNW9icThkbzIyYm9yZ2x2bmdxY3k1Ymk5ODJ2a3p3cGl6MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q8rwlNTcDAU3MuUzd7/giphy.gif)
 
 ### Customised callouts 
 One of my favourite additions to Quarto are the [callout blocks](https://quarto.org/docs/authoring/callouts.html). There are 5 default types but I would love to create my own customised version for R code 'style tips'. [This blog](https://www.andreashandel.com/posts/2023-06-13-custom-callouts-quarto/) and [this video](https://www.youtube.com/watch?v=DDQO_3R-q74) were very useful but I have still not got it to work yet!

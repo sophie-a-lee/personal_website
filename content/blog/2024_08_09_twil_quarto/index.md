@@ -133,5 +133,5 @@ I am going to be completely honest with you here: coding outside of R intimidate
 ### A Quarto course template
 Inspired by a response to a LinkedIn post (thank you James Bartlett for sharing your [workshop](https://bartlettje.github.io/Booktem_demo/)!), I will be developing a customised template to ensure future materials are consistent.
 
-Please do [get in touch](/form/contact.md) if you have any advice on these future steps, or if you want to share your experiences creating Quarto materials!
+Please do [get in touch](/contact) if you have any advice on these future steps, or if you want to share your experiences creating Quarto materials!
 

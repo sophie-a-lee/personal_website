@@ -34,7 +34,9 @@ There are [11 built-in themes](https://quarto.org/docs/presentations/revealjs/th
 
 To create a custom theme, we first create a `.scss` file. This is done by opening a new 'Text File' in RStudio and saving the file with the suffix `.scss` (for example `custom.scss`).
 
-This theme can then be added to the presentation YAML which will look something like this:
+![](new_files.png)
+
+Our theme can then be added to the presentation YAML which will look something like this:
 
 ````
 ---
@@ -80,11 +82,11 @@ $presentation-line-height: 1.6;
 
 The resulting presentation looks like this:
 
-<iframe class="slide-deck" src="theme_slides.html"></iframe>
+![](theme_slides.png)
 
 ### 2. Add consistent slide styling using CSS classes
 
-A useful addition to the custom theme we have just created are customised CSS classes. These allow consistent styling to be applied to elements of the presentation with minimal repeated coding. For my presentation, I wanted a CSS class that highlighted important text, making it bold and a brighter colour than the rest of the text. 
+A handy addition to the theme we have just created are customised CSS classes. These allow consistent styling to be applied to elements of the presentation with minimal repeated coding. For my presentation, I wanted a CSS class that highlighted important text, making it bold and a brighter colour. 
 
 CSS classes are added in the custom theme file, under the header `/*-- scss:rules --*/`. We first give the class a name, for example `.highlighted`. Using this prefix, we add the style options that we wish to apply using this class. For example, adding the following to the `custom.scss` theme file
 
@@ -104,12 +106,14 @@ The following Quarto code:
 ````
 ## Adding CSS classes
 
-[This text is highlighted]{.highlighted}, this text is not.
+[This text is highlighted]{.highlighted}. 
+
+This text is not.
 ````
 
 Produces this slide:
 
-<iframe class="slide-deck" src="css_classes.html"></iframe>
+![](css_classes.png)
 
 
 
@@ -205,13 +209,19 @@ The theme variant is applied to slides within the Quarto code by adding the clas
 ## Dark themed slide {.dark-theme}
 ````
 
-Any slides without the variant specified will follow the default theme set under the `/*-- scss:rules --*/` heading. Applying the custom theme pasted above will give the following results:
+Any slides without the variant specified will follow the default theme set under 
 
-<iframe class="slide-deck" src="theme_variant.html"></iframe>
+`/*-- scss:defaults --*/`  
+
+Applying the custom theme above will give the following results:
+
+![](theme_variant_light.png)
+
+![](theme_variant_dark.png)
 
 ### 4. Keep element layouts consistent with absolute positioning
 
-In presentations, we may have elements (e.g. images and tables) visible across multiple slides to draw attention to different aspects of it. If the position of the element is not fixed across slides, other differences across slides may cause this to move.This can result in clunky slide transitions and the movement can distract readers from other aspects of the slide. 
+In presentations, we may have elements (e.g. images and tables) visible across multiple slides. If the position of the element is not fixed across slides, differences between other elements in the slides may cause this to move. This can result in clunky slide transitions and the movement can distract readers from other aspects of the slide. 
 
 In Quarto, the [absolute CSS class](https://quarto.org/docs/presentations/revealjs/advanced.html#absolute-position) allows us to specify the exact position of items on a slide based on their relative difference from the `top`, `bottom`, `left` or `right`. We can also specify an item's `height` and `width` within this class. To set the absolute position of an item, use the syntax `{.absolute}`, followed by the location inside the brackets (e.g. `top=200 left=400`).
 
@@ -229,17 +239,17 @@ For example, the following syntax:
 
 Adds three pictures onto a slide in different positions:
 
-<iframe class="slide-deck" src="/absolute_positioning.html"></iframe>
+![](abolute_positioning.png)
 
 **Note:** absolute positioning can be used to situate any element of a slide, such as tables, text and headings, not just images. To use absolute positioning on text, surround it by square brackets and follow it with `{.absolute}` and the location on the slide. For example
 
 ````
-[This text will lie in the middle of the slide]{.absolute top="50%" left="50%"}
+[Some text with a position]{.absolute top=200 left=0}
 ````
 
 ### 5. Automatically adjust headers to fit a slide
 
-A super simple but VERY useful trick I used a lot was making use of the `r-fit-text` class. This automatically chooses the largest font possible that ensures text fills the slide, without overflowing. This saves lots of time testing different font sizes, and was particularly useful when creating separator slides for each new section and exercise in a long course.
+A simple but VERY useful trick I used a lot was making use of the `r-fit-text` class. This automatically chooses the largest font possible that ensures text fills the slide, without overflowing. This saves lots of time testing different font sizes, and was particularly useful when creating separator slides for each new section and exercise in a long course.
 
 To use the `r-fit-text` class, surround the text with Divs `:::` and begin `{.r-fit-text}`. For example, the following code creates a dark themed slide with the section number and title within a presentation:
 
@@ -253,6 +263,7 @@ Summary statistics
 :::
 ````
 
+![](fit_text.png)
 
 
 ### 6. Control slide animations with fragments
@@ -297,7 +308,7 @@ ggplot(data = df) +
 :::
 ````
 
-**Note:** (fragment order)[https://quarto.org/docs/presentations/revealjs/advanced.html#fragment-order] can also be specified within the `{}` brackets. By default, fragments will begin in the order they are given in the `.qmd` file. However, the `fragment-index` option can override this, changing the order or allowing multiple fragments to appear at the same time. For example:
+**Note:** [fragment order](https://quarto.org/docs/presentations/revealjs/advanced.html#fragment-order) can also be specified within the `{}` brackets. By default, fragments will begin in the order they are given in the `.qmd` file. However, the `fragment-index` option can override this, changing the order or allowing multiple fragments to appear at the same time. For example:
 
 ````
 [This will appear second]{.fragment fragment-index=2}
@@ -309,7 +320,7 @@ ggplot(data = df) +
 
 ### 7. Add presenter notes 
 
-Adding notes that appear only for the presenter in (speaker view)[https://quarto.org/docs/presentations/revealjs/presenting.html#speaker-view] can be done by using the `.notes` class, surrounding the text with Divs (`:::`). For example, the following code will create a slide with a numbered list. The notes are added to the slide but are only visible within presenter view:
+Adding notes that appear only for the presenter in [speaker view](https://quarto.org/docs/presentations/revealjs/presenting.html#speaker-view) can be done by using the `.notes` class, surrounding the text with Divs (`:::`). For example, the following code will create a slide with a numbered list. The notes are added to the slide but are only visible within presenter view:
 
 ````
 ## This is a list
@@ -325,6 +336,27 @@ Here are my presentation notes!
 
 Speaker view is enabled by clicking `s` on your keyboard.
 
+### Bonus cautionary tips
+
+As with everything in this world, Quarto presentations are not perfect and I definitely had some frustrating moments. To help as many people as possible avoid these little annoyances, here are my top tips to avoid Quarto presentation-related headaches:
+
+- CSS classes are VERY sensitive to spacing. Remove any spaces around equal signs, only have spaces between arguments.
+- Render your slides often to check for syntax spelling mistakes or accidental pluralisation (a `.fragment` is singular, `.notes` are plural. I was constantly getting this wrong!)
+- CSS must be written in **American English**. It took longer than I would like to admit to realise my theme did not work as I was specifying the colo**u**r rather than the color.
+
 ## Final thoughts
 
-I was very impressed with how easy it was to 
+I was very impressed by how easy it was to get started with Quarto presentations and how easy it was to control the layout of slides. This is definitely helped by the wealth of clear [documentation](https://quarto.org/docs/presentations/) and the incredible [Slidecraft 101](https://emilhvitfeldt.com/project/slidecraft-101/#blog-posts ) blog series which explained everything I could possibly need to know. 
+
+One of the most surprising parts of this exercise was finally beginning to understand CSS and SCSS styling. If you are also a little overwhelmed by the styling options and CSS classes, I would highly recommend playing around with Quarto presentations where these classes felt more intuitive. I will definitely be using what I learned here in the future, creating personalised fragment transitions and building more complex themes.
+
+### Resources and further reading
+
+- [Quarto documentation](https://quarto.org/docs/presentations/) is always the first stop as it is clear and comprehensive
+  - Specifically, the [Reveal.js](https://quarto.org/docs/presentations/revealjs/) and [advanced reveal](https://quarto.org/docs/presentations/revealjs/advanced.html) sections which have lots of handy tricks to play with
+- [Tom Mock's Quarto presentation](https://thomasmock.quarto.pub/reports-presentations/#/presentations) is also a good starting point to get inspiration 
+- In case you did not already realise, I am a huge fan of Emil Hvitfeldt's [Slidecraft 101](https://emilhvitfeldt.com/project/slidecraft-101/#blog-posts 
+) blog series. This is the blog that really made CSS coding seem approachable!
+
+Here is the resulting [presentation](https://stats-thinking-pres.netlify.app/presentation.html#/title-slide), [`.qmd` file](https://github.com/sophie-a-lee/stats_thinking_pres/blob/main/presentation.qmd), and [`.scss` file](https://github.com/sophie-a-lee/stats_thinking_pres/blob/main/custom.scss) that came out of this exercise. 
+

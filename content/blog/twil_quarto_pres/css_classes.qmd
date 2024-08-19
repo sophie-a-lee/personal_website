@@ -1,0 +1,12 @@
+---
+format: 
+  revealjs:
+    theme: custom_theme.scss
+    self-contained: true
+---
+
+## Adding CSS classes
+
+[This text is highlighted]{.highlighted}. 
+
+This text is not.

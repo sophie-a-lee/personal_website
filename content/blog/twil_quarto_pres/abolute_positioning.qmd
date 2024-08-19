@@ -1,0 +1,14 @@
+---
+format: 
+  revealjs:
+    theme: custom_theme.scss
+    self-contained: true
+---
+
+## Absolute positioning example
+
+[I love]{.absolute top=100 left=0}
+
+[absolute positioning]{.absolute top="50%" left="30%"}
+
+[and cake.]{.absolute bottom=0 right=0}

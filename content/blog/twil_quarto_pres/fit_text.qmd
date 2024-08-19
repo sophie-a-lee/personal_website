@@ -1,0 +1,14 @@
+---
+format: 
+  revealjs:
+    theme: theme_variant.scss
+    self-contained: true
+---
+
+# {.dark-theme}
+
+:::{.r-fit-text}
+Section 3: 
+
+Summary statistics
+:::

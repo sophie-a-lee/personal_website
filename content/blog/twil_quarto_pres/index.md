@@ -1,7 +1,7 @@
 ---
 title: "TWIL: 7 simple tricks for a banging Quarto presentation"
 excerpt: "A list of the most useful things I learned this week when making my first presentation using Quarto."
-date: 2024-08-19
+date: 2024-08-20
 author: "Sophie Lee"
 draft: false
 # layout options: single, single-sidebar
@@ -22,7 +22,7 @@ Recently I wrote about my experiences converting notes for the latest [Statistic
 
 Luckily, there are SO MANY great (free!) resources online that made this process way easier than expected to get started. If this is your first Quarto presentation, check out [Jilly MacKay's blog](https://jillymackay.com/post/professionally-sexy-quarto/) for a breakdown of steps to get set up. 
 
-Thanks to these amazing resources, I even overcame my fear of CSS/SCSS coding and created my first custom theme! For anyone else who is feeling overwhelmed by their first foray into CSS styling, I would highly recommend trying it within a presentation format to avoid feeling overwhelmed by more complicated document types.
+Thanks to these amazing resources, I even overcame my fear of CSS/SCSS coding and created my first custom theme! For anyone else who is feeling overwhelmed by their first foray into CSS styling, I would highly recommend trying it within a presentation format.
 
 There is still a huge amount of things to learn and improve but here are the 7 most useful things I learned while writing my first Quarto presentation!
 
@@ -197,6 +197,7 @@ $presentation-line-height: 1.6;
 }
 
 //CSS class for highlighting dark theme
+
 .highlighted-dark {
   color: $theme-dark-link;
   font-weight: bold;
@@ -237,15 +238,11 @@ For example, the following syntax:
 [and cake.]{.absolute bottom=0 right=0}
 ````
 
-Adds three pictures onto a slide in different positions:
+Adds text onto a slide in three different positions:
 
 ![](abolute_positioning.png)
 
-**Note:** absolute positioning can be used to situate any element of a slide, such as tables, text and headings, not just images. To use absolute positioning on text, surround it by square brackets and follow it with `{.absolute}` and the location on the slide. For example
-
-````
-[Some text with a position]{.absolute top=200 left=0}
-````
+**Note:** absolute positioning can be used to situate any element of a slide, including images, tables, equations, code chunks, text and headings. 
 
 ### 5. Automatically adjust headers to fit a slide
 
@@ -287,7 +284,7 @@ Or for single lists by surrounding them by Divs (`:::`) and setting as class `.i
 :::
 ````
 
-The incremental class is easy to apply to lists but any other element of a slide must be defined as a [fragment](https://quarto.org/docs/presentations/revealjs/advanced.html#fragments). There are several in-built fragment styles that can be used to add animations to slides, such as appear, disappear, highlight and strikethrough. The default fragment style has the element appear on a click. This is added using the syntax `{.fragment}`. Any other style must be added within the brackets, such as `{.fragment fade-out}`. The [Quarto documentation](https://quarto.org/docs/presentations/revealjs/advanced.html#fragments) provides a full list of fragment options.
+The incremental class is easy to apply to lists but any other element of a slide must be defined as a [fragment](https://quarto.org/docs/presentations/revealjs/advanced.html#fragments). There are several in-built fragment styles that can be used to add animations to slides, such as appear, disappear, highlight and strikethrough. The default fragment style has the element appear on a click. This is added using the syntax `{.fragment}`. Any other style must be added within the brackets, e.g. `{.fragment fade-out}`. [Quarto documentation](https://quarto.org/docs/presentations/revealjs/advanced.html#fragments) provides a full list of fragment options.
 
 Fragments can be added in the same way as any other class. If the fragment is defined on a single row, for example an image, a line of text, or a snippet of text within a longer line, we define the class using `{}` brackets. For example:
 
@@ -358,5 +355,5 @@ One of the most surprising parts of this exercise was finally beginning to under
 - In case you did not already realise, I am a huge fan of Emil Hvitfeldt's [Slidecraft 101](https://emilhvitfeldt.com/project/slidecraft-101/#blog-posts 
 ) blog series. This is the blog that really made CSS coding seem approachable!
 
-Here is the resulting [presentation](https://stats-thinking-pres.netlify.app/presentation.html#/title-slide), [`.qmd` file](https://github.com/sophie-a-lee/stats_thinking_pres/blob/main/presentation.qmd), and [`.scss` file](https://github.com/sophie-a-lee/stats_thinking_pres/blob/main/custom.scss) that came out of this exercise. 
+Here is the [presentation](https://stats-thinking-pres.netlify.app/presentation.html#/title-slide), [`.qmd` file](https://github.com/sophie-a-lee/stats_thinking_pres/blob/main/presentation.qmd), and [`.scss` file](https://github.com/sophie-a-lee/stats_thinking_pres/blob/main/custom.scss) that came out of this exercise. 
 

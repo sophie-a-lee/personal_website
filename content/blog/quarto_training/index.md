@@ -1,5 +1,5 @@
 ---
-title: "Using Quarto to write free, accessible training materials"
+title: "TWIL: Using Quarto to write free, accessible training materials"
 excerpt: "A blog that turned into a short tutorial explaining why Quarto is my weapon of choice when writing training materials, and how to host those materials for free using Netlify."
 date: 2024-07-31
 author: "Sophie Lee"
@@ -10,6 +10,7 @@ categories:
 - Statistics
 - Education
 - Software
+- TWIL
 ---
 
 **TL;DR**  A blog post that turned into a short tutorial explaining why Quarto is my weapon of choice when making my training accessible, and how to host materials for free using Netlify.

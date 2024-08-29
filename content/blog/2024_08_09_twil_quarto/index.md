@@ -1,5 +1,5 @@
 ---
-title: "This week I learned: Converting RMarkdown materials to a Quarto book"
+title: "TWIL: Converting RMarkdown materials to a Quarto book"
 excerpt: "Cool things I learned this week while converting existing course materials for Statistical Thinking from RMarkdown to Quarto."
 date: 2024-08-08
 author: "Sophie Lee"
@@ -10,6 +10,7 @@ categories:
 - Statistics
 - Education
 - Software
+- TWIL
 ---
 
 **TL;DR:** Every time I use Quarto, I learn something new! I wanted to start documenting these findings in a blog so others know they exist. This week, I leaned some useful code chunk options and how to add dark mode to make materials more accessible.

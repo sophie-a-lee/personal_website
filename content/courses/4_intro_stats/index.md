@@ -11,17 +11,15 @@ layout: single
 links:
 - icon: door-open
   icon_pack: fas
-  name: website
-  url: https://equationsofdisease.com/
+  name: enroll online
+  url: https://equationsofdisease.com/courses/introduction-to-statistics/
 subtitle: An online course designed to take you from beginner to regression in your own time.
 title: Introduction to Statistics
 ---
 
 **Course level: Foundation**
 
-**Self-paced online course [coming soon!](https://equationsofdisease.com/)**
-
-![](paranormal_dist.png)
+**[Self-paced online course] (https://equationsofdisease.com/courses/introduction-to-statistics/)**
 
 ---
 

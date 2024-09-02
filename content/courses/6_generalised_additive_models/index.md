@@ -8,13 +8,18 @@ categories:
 draft: false
 excerpt: A 3-day course to take your modelling to the next level. Go beyond generalised linear models with their smoother, more flexible cousins, generalised additive models!
 layout: single
+links:
+- icon: door-open
+  icon_pack: fas
+  name: registration
+  url: https://www.prstats.org/course/generalised-additive-models-gams-with-r-gamr03/
 subtitle: A 3-day step beyond GLMs to flexible modelling with generalised additive models
 title: Generalised additive models with R
 ---
 
 **Course level: Intermediate**
 
-**Next live dates: 9 - 12 December** (enrollment link coming soon).
+**Next live dates: [9 - 12 December](https://www.prstats.org/course/generalised-additive-models-gams-with-r-gamr03/)**
 
 ![Photo by Kyle Bushnell on Unsplash](wiggly.jpg)
 

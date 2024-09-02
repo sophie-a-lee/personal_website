@@ -8,13 +8,18 @@ draft: false
 weight: 2
 excerpt: A 3-day comprehensive introduction to spatial data, visualisation, and analysis. Unlock the full potential of your analysis and gain a more nuanced, geographically informed understanding of your data.
 layout: single
+links:
+- icon: door-open
+  icon_pack: fas
+  name: registration
+  url: https://www.prstats.org/course/spatial-data-analysis-with-r-sdar01/
 subtitle: A 3-day comprehensive introduction to spatial data, visualisation, and analysis.
 title: Spatial data analysis with R
 ---
 
 **Course level: Intermediate**
  
-**Next live dates: 16 - 19 December** (enrollment link coming soon).
+**Next live dates: [16 - 19 December](https://www.prstats.org/course/spatial-data-analysis-with-r-sdar01/)**
 
 ![Strength of connections in Southeast Brazil based on different spatial assumptions.](connection_brazil.png)
 

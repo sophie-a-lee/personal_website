@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+
+// colour scheme
+$theme-light-back: #fdddb6;
+$theme-light-link: #9a3416;
+$theme-light-text: #222222;
+
+
+// colours
+$body-bg: $theme-light-back;
+$body-color: $theme-light-text;
+$link-color: $theme-light-link;
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family-sans-serif: "Montserrat", sans-serif;
+$presentation-heading-font: "Noto Serif", serif;
+$presentation-font-size-root: 40px;
+$presentation-line-height: 1.6;
+
+
+/*-- scss:rules --*/
+
+// CSS class highlighting text
+.highlighted {
+  color: $theme-light-link;
+  font-weight: bold;
+}
+
+

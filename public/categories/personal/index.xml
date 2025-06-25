@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on S-cubed</title>
+    <link>http://localhost:4321/categories/personal/</link>
+    <description>Recent content in Personal on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TWIL: 7 lessons from 6 months as a full-time freelancer</title>
+      <link>http://localhost:4321/blog/twil_new_freelancer/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/twil_new_freelancer/</guid>
+      <description>TL;DR: This week, I have been reflecting on my first 6 months as a full-time freelancer and the huge amount I have learned in that time. I have condensed these thoughts into 7 lessons I have learned as a new freelancer and ex-digital nomad.&#xA;Background At the end of February, I returned to the UK after travelling full-time for 18 months1 and travelling part-time for many more years (besides an obvious pandemic-imposed break!</description>
+    </item>
+  </channel>
+</rss>

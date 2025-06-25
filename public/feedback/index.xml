@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feedback from past courses on S-cubed</title>
+    <link>http://localhost:4321/feedback/</link>
+    <description>Recent content in Feedback from past courses on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/feedback/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feedback for Statistical Thinking</title>
+      <link>http://localhost:4321/feedback/statistical_thinking/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/statistical_thinking/</guid>
+      <description>&amp;ldquo;The content was excellent for a beginner like me. The topics covered had the right depth and breadth, making complex statistical concepts accessible and relevant to my work. I found the balance between theory and practical application particularly helpful in understanding how to use statistics effectively in real-world situations.&amp;rdquo;&#xA;June 2024. Data analyst, UK Ministry of Justice &amp;ldquo;It made me want to do a second part of the course and learn about other distributions and how to deal with them.</description>
+    </item>
+    <item>
+      <title>Feedback for Inferential Statistics</title>
+      <link>http://localhost:4321/feedback/inferential_stats/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/inferential_stats/</guid>
+      <description>&amp;ldquo;The lessons are so informative, simple to understand, and well illustrated.&amp;rdquo;&#xA;March, 2024 &amp;ldquo;It cleared my misconceptions on the p value and improved my knowledge of statistics&amp;rdquo;&#xA;September, 2023 &amp;ldquo;It was a good and valuable course that increase my knowledge toward inferential statistics&amp;rdquo;&#xA;September, 2023 </description>
+    </item>
+    <item>
+      <title>Feedback for Introduction to R with Tidyverse courses</title>
+      <link>http://localhost:4321/feedback/intro_r/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/intro_r/</guid>
+      <description>&amp;ldquo;Everything was super useful for the work I am currently doing. The main thing that was useful was learning how to merge multiple data sheets together into one data file. I liked how interactive it was as well as it made it easier to fully understand the logic.&amp;rdquo;&#xA;March 2024. Data analyst, Department of Business and Trade &amp;ldquo;Sophie Lee was extremely good, she went at a very good pace and was always happy to help.</description>
+    </item>
+    <item>
+      <title>Feedback for Regressions with R</title>
+      <link>http://localhost:4321/feedback/regressions_r/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/regressions_r/</guid>
+      <description>&amp;ldquo;Really enjoyed the course, which is something I didn&amp;rsquo;t think I would ever say about statistics. Originally signed up as I was trying to do multiple linear regression and there were certain aspects that I couldn&amp;rsquo;t quite get my head around. The course was perfectly pitched for my level of previous understanding and covered exactly the sort of thing I was looking for (the practical example was essentially the same as my research but just with slightly different predictors - so ideal).</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.131.0">
+<title>TWIL: Converting RMarkdown materials to a Quarto book | S-cubed</title>
+
+
+<meta property="twitter:site" content="@sophiestats10">
+<meta property="twitter:creator" content="@sophiestats10">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Cool things I learned this week while converting existing course materials for Statistical Thinking from RMarkdown to Quarto.">
+
+
+<meta property="og:site_name" content="S-cubed">
+<meta property="og:title" content="TWIL: Converting RMarkdown materials to a Quarto book | S-cubed">
+<meta property="og:description" content="Cool things I learned this week while converting existing course materials for Statistical Thinking from RMarkdown to Quarto." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="http://localhost:4321/blog/2024_08_09_twil_quarto/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="http://localhost:4321/blog/2024_08_09_twil_quarto/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="http://localhost:4321/blog/2024_08_09_twil_quarto/featured.jpg" >
+    
+    
+  
+  <meta itemprop="name" content="TWIL: Converting RMarkdown materials to a Quarto book">
+  <meta itemprop="description" content="TL;DR: Every time I use Quarto, I learn something new! I wanted to start documenting these findings in a blog so others know they exist. This week, I leaned some useful code chunk options and how to add dark mode to make materials more accessible.
+Motivation Next week, I will be teaching the third edition of my Statistical Thinking course to the UK Ministry of Justice. The first edition was written using Google Docs due to tight deadlines (without needing to learn a new language!">
+  <meta itemprop="datePublished" content="2024-08-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-08T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1221">
+  <meta itemprop="image" content="http://localhost:4321/blog/2024_08_09_twil_quarto/featured.jpg">
+  <meta itemprop="keywords" content="Statistics,Education,Software,TWIL">
+  
+  
+
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.00a51ef4905c55f509490df183e797045778d025e6cdf3d0c977c654629cd9bf.css" integrity="sha256-AKUe9JBcVfUJSQ3xg&#43;eXBFd40CXmzfPQyXfGVGKc2b8=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.0c13611bb52989865986fca1d644639ed5229d1fd703a84d9a164f4246c78834.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:4321/" title="Home">
+      <img src="/img/favicon.ico" class="dib db-l h2 w-auto" alt="S-cubed">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/courses/" title="Courses">Courses</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publications/" title="Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">TWIL: Converting RMarkdown materials to a Quarto book</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Sophie Lee in <a href="http://localhost:4321/categories/statistics">Statistics</a>  <a href="http://localhost:4321/categories/education">Education</a>  <a href="http://localhost:4321/categories/software">Software</a>  <a href="http://localhost:4321/categories/twil">TWIL</a> </p>
+        <p class="f7 db mv0 ttu">August 8, 2024</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p><strong>TL;DR:</strong> Every time I use Quarto, I learn something new! I wanted to start documenting these findings in a blog so others know they exist. This week, I leaned some useful code chunk options and how to add dark mode to make materials more accessible.</p>
+
+
+
+
+<h2 id="motivation">Motivation
+  <a href="#motivation"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Next week, I will be teaching the third edition of my 
+<a href="/courses/9_statistical_thinking/">Statistical Thinking</a> course to the UK Ministry of Justice. The first edition was written using Google Docs due to tight deadlines (without needing to learn a new language!). This was far from ideal as the course includes many graphs created using the <code>ggplot2</code> package in R. Any corrections or updates to the graphs meant a convoluted process of updating code, exporting images, and replacing them in the document. When it came to making updates for the second edition of the course, I could not face going through this process and decided now was the perfect time to learn RMarkdown!</p>
+<p>RMarkdown allowed me to incorporate R outputs (specifically tables and graphs) into the course notes which were automatically updated when I changed the code. After overcoming my aversion to LaTeX (I swore to never use it again following many error-induced breakdowns writing my MSc dissertation), I produced a PDF course booklet which looked far more professional than the original version and meant I did not have to wrangle outputs every time I made a tiny change.</p>
+<p><strong>But then I met Quarto.</strong></p>
+<p>As I spoke about 
+<a href="/blog/quarto_training">in my previous blog</a>, I am hosting all my course materials for free online using Quarto books and Netlify. Unlike RMarkdown, Quarto does not require additional packages to create books or websites, and there are some useful additional features that I really like in Quarto that just aren&rsquo;t available in RMarkdown.</p>
+<p>Here are some of the useful features that I discovered while converting this course from RMarkdown to Quarto.</p>
+
+
+
+
+<h2 id="twil-this-week-i-learned">TWIL: This week I learned
+  <a href="#twil-this-week-i-learned"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+
+
+
+
+<h3 id="setting-document-level-default-knitr-execution-settings-in-yaml">Setting document-level default <code>knitr</code> execution settings in YAML
+  <a href="#setting-document-level-default-knitr-execution-settings-in-yaml"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The course I am writing does not include any software training. This means that, although I am using R code to generate graphs and tables in the notes, I do not want this code to be visible to readers. Quarto (and RMarkdown) use the <code>knitr</code> package to execute code chunks. To customise the way <code>knitr</code> does this, we can use 
+<a href="https://yihui.org/knitr/options/" target="_blank" rel="noopener">chunk options</a>. These can be specified for each chunk individually, or can be set at the document-level within YAML:</p>
+<pre tabindex="0"><code>---
+knitr:
+  opts_chunk: 
+    echo: false
+    message: false
+    fig.align: center
+---
+</code></pre><p>This code ensures that all code chunks within the document will be executed without displaying code or any messages within the final document, and all figures will be center-aligned.</p>
+
+
+
+
+<h3 id="setting-individual-chunk-options-using-">Setting individual chunk options using <code>#|</code>
+  <a href="#setting-individual-chunk-options-using-"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Code chunk execution can still be customised for each chunk individually but, rather than adding this to the chunk headings like RMarkdown, these are added to the body following <code>#|</code>. For example,</p>
+<pre tabindex="0"><code>```{r setup, include = FALSE}
+library(ggplot2)
+```
+</code></pre><p>In RMarkdown is a code chunk labelled &lsquo;setup&rsquo; which installs the <code>ggplot2</code> package, without displaying the R code or output in the rendered document. In Quarto, this becomes:</p>
+<pre tabindex="0"><code>```{r}
+#| include: false
+#| label: setup
+
+library(ggplot2)
+```
+</code></pre><p>This does not change the output significantly but I found it makes the code far more readable.</p>
+
+
+
+
+<h3 id="cross-referencing-figures-and-tables">Cross-referencing figures and tables
+  <a href="#cross-referencing-figures-and-tables"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Setting a chunk label within the chunk body allows cross-references to be created, making it easier to refer to previous outputs within text. Cross-references are useful for figures and tables, but can also be used to reference callouts (more on these soon), equations and sections. Quarto automatically numbers cross-references, meaning we do not need to manually update them if we add new references to the document.</p>
+<p>To create a cross-reference for a figure or table created in a code chunk, begin the chunk label with one of the reserved cross-reference prefixes 
+<a href="https://quarto.org/docs/authoring/cross-references.html#reserved-prefixes" target="_blank" rel="noopener">listed in Quarto documentation</a>, for example <code>fig-</code> or <code>tbl</code>. The default syntax to add a reference to text is using the label, beginning with an <code>@</code> symbol, e.g. <code>@fig-plot1</code>. For other options, see the 
+<a href="https://quarto.org/docs/authoring/cross-references.html#references" target="_blank" rel="noopener">Quarto documentation</a>.</p>
+
+
+
+
+<h3 id="custom-figure-layouts-to-show-multiple-graphs-on-one-output">Custom figure layouts to show multiple graphs on one output
+  <a href="#custom-figure-layouts-to-show-multiple-graphs-on-one-output"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>One of my favourite discoveries this week is that figure layouts can be cutomised within code chunks. This not only means that multiple plots can be shown on the same output, but they can be each be given sub-captions as well as an overall caption!</p>
+<p>To add multiple plots, we can include the code options <code>layout-ncol</code>, <code>layout-nrow</code> or <code>layout</code> depending on how we want the layout to look. Overall captions are added using the code option <code>fig-cap</code> and sub-captions can be added for each sub-plot using <code>fig-subcap</code>.</p>
+<p>For example, the following code chunk was used to create Figure 4.2 in my upcoming 
+<a href="https://stats-thinking.netlify.app/04_comparisons#identifying-trends-between-two-numeric-variables" target="_blank" rel="noopener">Statistical Thinking course materials</a>, showing two examples of negative Pearson correlation coefficients:</p>
+<pre tabindex="0"><code>``` {r}
+#| label: fig-negative-correlation
+#| layout-ncol: 2
+#| fig-cap: &#34;Negative Pearson correlation&#34;
+#| fig-subcap:
+#|  - &#34;Correlation = -1&#34;
+#|  - &#34;-1 &lt; correlation &lt; 0&#34;
+
+ggplot(data = correlation_data) +
+  geom_point(aes(x = xcor1, y = ycor_1)) +
+  labs(x = &#34;&#34;, y = &#34;&#34;) +
+  theme_light()
+
+ggplot(data = correlation_data) +
+  geom_point(aes(x = xcor1, y = ycor_neg)) +
+  labs(x = &#34;&#34;, y = &#34;&#34;) +
+  theme_light()
+
+```
+</code></pre><p><img src="correlation_example.png" alt=""></p>
+<p>This avoids needing additional R packages, such as <code>cowplot</code> or <code>patchwork</code>, to show multiple plots on the same output, and makes it super simple to add sub-captions to each.</p>
+
+
+
+
+<h3 id="adding-a-lightdark-mode-option-to-online-materials">Adding a light/dark mode option to online materials
+  <a href="#adding-a-lightdark-mode-option-to-online-materials"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>One comment I received when I first started sharing free materials online was that they lacked a dark mode option. One of my main goals in sharing these materials was to increase accessibility to training, so it was very important to me to rectify this for future materials. Luckily, this is very easy to do in Quarto!</p>
+<p>Within the Quarto configuration file (named <code>_quarto.yml</code> by default), we are able to customise the theme of html documents, using one of the 
+<a href="https://bootswatch.com/" target="_blank" rel="noopener">in-built defaults</a> or by creating our own using CSS or SCSS. We are also able to provide separate light and dark themes, for example:</p>
+<pre tabindex="0"><code>format:
+  html:
+    theme: 
+      light: pulse
+      dark: darkly
+</code></pre><p>This will add a toggle option to the sidebar of the book html output, allowing readers to choose which option they prefer.</p>
+
+
+
+
+<h2 id="what-next">What next?
+  <a href="#what-next"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I am still fairly new to Quarto and its uses, some things I am hoping to finally figure out and share soon!</p>
+<p><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG04Y2hyNW9icThkbzIyYm9yZ2x2bmdxY3k1Ymk5ODJ2a3p3cGl6MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q8rwlNTcDAU3MuUzd7/giphy.gif" alt=""></p>
+
+
+
+
+<h3 id="customised-callouts">Customised callouts
+  <a href="#customised-callouts"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>One of my favourite additions to Quarto are the 
+<a href="https://quarto.org/docs/authoring/callouts.html" target="_blank" rel="noopener">callout blocks</a>. There are 5 default types but I would love to create my own customised version for R code &lsquo;style tips&rsquo;. 
+<a href="https://www.andreashandel.com/posts/2023-06-13-custom-callouts-quarto/" target="_blank" rel="noopener">This blog</a> and 
+<a href="https://www.youtube.com/watch?v=DDQO_3R-q74" target="_blank" rel="noopener">this video</a> were very useful but I have still not got it to work yet!</p>
+
+
+
+
+<h3 id="cssscss-to-create-a-custom-theme">CSS/SCSS to create a custom theme
+  <a href="#cssscss-to-create-a-custom-theme"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>I am going to be completely honest with you here: coding outside of R intimidates me a little! One of my goals is to overcome this fear and learn other useful computing languages. Coupled with Quarto, CSS and/or SCSS can be used to create a completely personalised theme for your documents.</p>
+
+
+
+
+<h3 id="a-quarto-course-template">A Quarto course template
+  <a href="#a-quarto-course-template"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Inspired by a response to a LinkedIn post (thank you James Bartlett for sharing your 
+<a href="https://bartlettje.github.io/Booktem_demo/" target="_blank" rel="noopener">workshop</a>!), I will be developing a customised template to ensure future materials are consistent.</p>
+<p>Please do 
+<a href="/contact">get in touch</a> if you have any advice on these future steps, or if you want to share your experiences creating Quarto materials!</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">August 8, 2024</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">6 minute read, 1221 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="http://localhost:4321/categories/statistics">Statistics</a>  <a href="http://localhost:4321/categories/education">Education</a>  <a href="http://localhost:4321/categories/software">Software</a>  <a href="http://localhost:4321/categories/twil">TWIL</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="http://localhost:4321/blog/twil_quarto_pres/">&larr; TWIL: 7 simple tricks for a banging Quarto presentation</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="http://localhost:4321/blog/quarto_training/">TWIL: Using Quarto to write free, accessible training materials &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="apreshill/apero"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2025 S-cubed, Sheffield, UK
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/sophie-a-lee" title="github" target="_blank" rel="me noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/sophiestats10" title="twitter" target="_blank" rel="me noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/sophie-lee-51905587/" title="linkedin" target="_blank" rel="me noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0002-2049-9756" title="orcid" target="_blank" rel="me noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/cv/" title="cv" >
+      <i class="ai ai-cv fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/buymeacoffee.com/sophie_a_lee" title="mug-hot" >
+      <i class="fas fa-mug-hot fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

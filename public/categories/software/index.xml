@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on S-cubed</title>
+    <link>http://localhost:4321/categories/software/</link>
+    <description>Recent content in Software on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 tips for aspiring R users</title>
+      <link>http://localhost:4321/blog/2025_06_25_newr/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/2025_06_25_newr/</guid>
+      <description>Motivation As a Statistical Programming Trainer, one of the most common questions I get asked is where do I start?? More than that, where do I start and how do I find the motivation to keep going?&#xA;Many aspiring R users are excited to dive into R, dreaming of beautiful plots and elegant data wrangling…only to hit a wall.&#xA;Maybe you get stuck on syntax, or maybe you find yourself crawling back to SAS, SPSS or Excel just this once.</description>
+    </item>
+    <item>
+      <title>TWIL: Smoother course material creation using Github templates and pages</title>
+      <link>http://localhost:4321/blog/twil_ghpages/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/twil_ghpages/</guid>
+      <description>TL;DR: This week, I wanted to streamline the workflow of course development, making the most of Github&amp;rsquo;s capabilities. I found Github templates and pages make course initialisation and deployment super simple.&#xA;Motivation After some very exciting developments, I have four (!) sets of course materials to develop by the end of the year. As part of my goal to ensure all my course materials are accessible to anyone, regardless of their location or financial circumstances, I will be developing all my materials using Quarto and hosting them online for free.</description>
+    </item>
+    <item>
+      <title>TWIL: 7 simple tricks for a banging Quarto presentation</title>
+      <link>http://localhost:4321/blog/twil_quarto_pres/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/twil_quarto_pres/</guid>
+      <description>TL;DR: Last week, I set myself a goal to convert the slides accompanying the Statistical thinking short course into Quarto. I have listed the 7 most useful things I learned, including how to create custom themes (with variants), how to wrangle slide transitions with fragments, and using absolute positioning to make slide layouts super easy!&#xA;Motivation Recently I wrote about my experiences converting notes for the latest Statistical Thinking course into a Quarto book on my blog.</description>
+    </item>
+    <item>
+      <title>TWIL: Converting RMarkdown materials to a Quarto book</title>
+      <link>http://localhost:4321/blog/2024_08_09_twil_quarto/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/2024_08_09_twil_quarto/</guid>
+      <description>TL;DR: Every time I use Quarto, I learn something new! I wanted to start documenting these findings in a blog so others know they exist. This week, I leaned some useful code chunk options and how to add dark mode to make materials more accessible.&#xA;Motivation Next week, I will be teaching the third edition of my Statistical Thinking course to the UK Ministry of Justice. The first edition was written using Google Docs due to tight deadlines (without needing to learn a new language!</description>
+    </item>
+    <item>
+      <title>TWIL: Using Quarto to write free, accessible training materials</title>
+      <link>http://localhost:4321/blog/quarto_training/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/quarto_training/</guid>
+      <description>TL;DR A blog post that turned into a short tutorial explaining why Quarto is my weapon of choice when making my training accessible, and how to host materials for free using Netlify.&#xA;Motivation I am on a mission to make statistics and R coding accessible, inclusive, and enjoyable! Part of this mission includes providing free access to training materials so that anyone who wants to learn has the opportunity to do so (not just those with access to funding).</description>
+    </item>
+  </channel>
+</rss>

@@ -46,48 +46,7 @@
         </div> <!--close wide column -->
         {{ end }}
 
-    <!--begin sidebar-->
-    {{ $sidebar := printf "/%s/%s" .Section "sidebar/index.md" }}
-    {{ $sidebar_pg := site.GetPage $sidebar }}
-    {{ with $sidebar_pg }}
-        <sidebar class="about-sidebar order-1 {{ if $page.Params.sidebar_left }}order-1-l{{ else }}mr4-l order-2-l{{ end }} mh0 w-third-l w-100-ns" id="profile">
-          <div class="pt3 pb1 pb2-ns tc ph4">
-            {{ if .Params.avatar_shape }}
-              {{- $avatar := ($sidebar_pg.Resources.ByType "image").GetMatch "*avatar*" -}}
-              {{ $avatar_shape := .Params.avatar_shape | default "circle" }}
-              {{ with $avatar }}
-                <img src="{{ .RelPermalink }}" class="h4 w4 dib {{if eq $avatar_shape "rounded"}}br3{{end}}{{if eq $avatar_shape "circle"}}br-100{{end}}" alt="avatar">
-              {{ end }}
-            {{ end }}
-            <h2 class="f-subheadline f4-ns fw6">{{ .Params.author }}</h2>
-            <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.role | markdownify }}</h5>
-            {{ if .Params.show_social_links }}
-              <div class="site-social-links db v-mid pv2">
-              {{ partial "shared/social-links.html" . }}
-              </div>
-            {{ end }}
-            </div>
-
-            {{ if .Params.audio_link_label }}
-            {{ $audio := ($sidebar_pg.Resources).GetMatch "*audio*" }}
-            <div class="pa1 pa2-ns tc ph4">
-                <p class="fw2 pb1">{{ .Params.audio_link_label }}</p>
-                <p>
-                {{ with $audio }}
-                <audio src="{{ .RelPermalink }}" controls></audio>
-                {{ end }}
-                </p>
-            </div>
-            {{ end }}
-
-          <div class="pa1 pa2-ns tc ph4">
-            <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.link_list_label }}</h5>
-            <ul class="list measure center ph4 pb4">
-              {{ partial "shared/about-links" . }}
-            </ul>
-          </div>
-        </sidebar>
-        {{ end }}
+    
 
       </div>    <!--close flex-->
     </section>  <!--close body section-->

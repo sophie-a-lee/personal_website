@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhD on S-cubed</title>
+    <link>http://localhost:4321/categories/phd/</link>
+    <description>Recent content in PhD on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/phd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD thesis</title>
+      <link>http://localhost:4321/publications/1_phd/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/1_phd/</guid>
+      <description>Here is the result of 4 years&amp;rsquo; of hard work&amp;hellip;my finished PhD thesis! This work explores the existing spatial modelling framework that is used to model mosquito-borne disease, and proposes a new approach that is capable of capturing multiple sources of spatial connectivity. Existing and novel statistical models are applied to dengue data from Brazil since 2001 to explore the impact of climate, cities, and connectivity on the expansion of dengue outbreaks across the country.</description>
+    </item>
+  </channel>
+</rss>

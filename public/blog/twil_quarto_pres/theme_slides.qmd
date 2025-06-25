@@ -1,0 +1,13 @@
+---
+format: 
+  revealjs:
+    theme: custom_theme.scss
+    self-contained: true
+---
+
+## Look, a custom theme!
+
+Sass variables aren't so bad!
+
+I can even change the [link colour!](https://scubed.netlify.app/)
+

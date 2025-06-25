@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spatial Analysis on S-cubed</title>
+    <link>http://localhost:4321/categories/spatial-analysis/</link>
+    <description>Recent content in Spatial Analysis on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/spatial-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhD thesis</title>
+      <link>http://localhost:4321/publications/1_phd/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/1_phd/</guid>
+      <description>Here is the result of 4 years&amp;rsquo; of hard work&amp;hellip;my finished PhD thesis! This work explores the existing spatial modelling framework that is used to model mosquito-borne disease, and proposes a new approach that is capable of capturing multiple sources of spatial connectivity. Existing and novel statistical models are applied to dengue data from Brazil since 2001 to explore the impact of climate, cities, and connectivity on the expansion of dengue outbreaks across the country.</description>
+    </item>
+    <item>
+      <title>A Bayesian modelling framework to quantify multiple sources of spatial variation for disease mapping</title>
+      <link>http://localhost:4321/publications/2_bayesian_model/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/2_bayesian_model/</guid>
+      <description>Abstract Spatial connectivity is an important consideration when modelling infectious disease data across a geographical region. Connectivity can arise for many reasons, including shared characteristics between regions and human or vector movement. Bayesian hierarchical models include structured random effects to account for spatial connectivity. However, conventional approaches require the spatial structure to be fully defined prior to model fitting. By applying penalized smoothing splines to coordinates, we create two-dimensional smooth surfaces describing the spatial structure of the data while making minimal assumptions about the structure.</description>
+    </item>
+    <item>
+      <title>The impact of climate suitability, urbanisation, and connectivity on the expansion of dengue in 21st century Brazil</title>
+      <link>http://localhost:4321/publications/3_dengue_expansion/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/3_dengue_expansion/</guid>
+      <description>Abstract Dengue is hyperendemic in Brazil, with outbreaks affecting all regions. Previous studies identified geographical barriers to dengue transmission in Brazil, beyond which certain areas, such as South Brazil and the Amazon rainforest, were relatively protected from outbreaks. Recent data shows these barriers are being eroded. In this study, we explore the drivers of this expansion and identify the current limits to the dengue transmission zone. We used a spatio-temporal additive model to explore the associations between dengue outbreaks and temperature suitability, urbanisation, and connectivity to the Brazilian urban network.</description>
+    </item>
+    <item>
+      <title>Spatial connectivity in mosquito-borne disease models: a systematic review of methods and assumptions</title>
+      <link>http://localhost:4321/publications/4_systematic_review/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/4_systematic_review/</guid>
+      <description>Abstract Spatial connectivity plays an important role in mosquito-borne disease transmission. Connectivity can arise for many reasons, including shared environments, vector ecology and human movement. This systematic review synthesizes the spatial methods used to model mosquito-borne diseases, their spatial connectivity assumptions and the data used to inform spatial model components. We identified 248 papers eligible for inclusion. Most used statistical models (84.2%), although mechanistic are increasingly used. We identified 17 spatial models which used one of four methods (spatial covariates, local regression, random effects/fields and movement matrices).</description>
+    </item>
+    <item>
+      <title>Combined effects of hydrometeorological hazards and urbanisation on dengue risk in Brazil: a spatiotemporal modelling study</title>
+      <link>http://localhost:4321/publications/5_hydromet_paper/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/5_hydromet_paper/</guid>
+      <description>Summary Background Temperature and rainfall patterns are known to influence seasonal patterns of dengue transmission. However, the effect of severe drought and extremely wet conditions on the timing and intensity of dengue epidemics is poorly understood. In this study, we aimed to quantify the non-linear and delayed effects of extreme hydrometeorological hazards on dengue risk by level of urbanisation in Brazil using a spatiotemporal model.&#xA;Methods We combined distributed lag non-linear models with a spatiotemporal Bayesian hierarchical model framework to determine the exposure-lag-response association between the relative risk (RR) of dengue and a drought severity index.</description>
+    </item>
+  </channel>
+</rss>

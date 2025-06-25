@@ -1,0 +1,54 @@
+/*-- scss:defaults --*/
+
+// colour scheme
+
+$theme-light-back: #fdddb6;
+$theme-light-link: #9a3416;
+$theme-light-text: #222222;
+$theme-dark-back: #1f2e32;
+$theme-dark-link: #aae4e6;
+$theme-dark-text: #ebe8e3;
+
+
+// colours
+$body-bg: $theme-light-back;
+$body-color: $theme-light-text;
+$link-color: $theme-light-link;
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family-sans-serif: "Montserrat", sans-serif;
+$presentation-heading-font: "Noto Serif", serif;
+$presentation-font-size-root: 40px;
+$presentation-line-height: 1.6;
+
+
+/*-- scss:rules --*/
+.dark-theme {
+  color: $theme-dark-text;
+  background-color: $theme-dark-back;
+  
+  h1, h2, h3 {
+    color: $theme-dark-text;
+  }
+  a { 
+    color: $theme-dark-link;
+  }
+  .slide-background-content {
+    background-color: $theme-dark-back;
+  }
+}
+
+.highlighted-light {
+  color: $theme-light-link;
+  font-weight: bold;
+}
+
+.highlighted-dark {
+  color: $theme-dark-link;
+  font-weight: bold;
+}
+

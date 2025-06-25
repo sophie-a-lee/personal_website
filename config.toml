@@ -1,4 +1,4 @@
-baseURL = "https://scubed.netlify.app/"
+baseURL = "https://scubed.rbind.io/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "S-cubed"
@@ -28,7 +28,7 @@ enableEmoji = true
 [params]
   orgName = "S-cubed"
   orgLocal = "Sheffield, UK"
-  description = "Making statistics seem less scary."
+  description = "Translate your data into meaningful results."
   favicon = "/img/favicon.ico"
   logo = "/img/favicon.ico"
   mainSections = ["courses", "publications", "talks", "blog"]

@@ -3,18 +3,22 @@
 title: "About" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
-number_categories: 3 # set to zero to exclude
+number_categories: 0 # set to zero to exclude
 show_intro: true
-intro: |
-  "Hello! I am Dr. Sophie Lee, the founder and director of S-cubed. 
-  
-  I am a statistician that loves teaching people and showing that statistics does not need to be scary! Over the past 10 years, I have written and delivered [statistics and R programming courses](/courses) to people from many different backgrounds and levels of experience. Some of the groups I have delivered courses for include UCL, the UK government (including the Ministry of Justice, Department for Education, Department for Levelling up, Housing and Communities), NHS West Midlands, the Egyptian Knowledge Bank, Barcelona Supercomputing Centre, and Fiocruz (Fundação Oswaldo Cruz).
-  
-  My courses have been attended by a wide range of people, from researchers and university students, to medical doctors and surgeons, to social scientists and anthropologists, to data scientists and economists. I have consistently received excellent feedback about my ability to explain complex ideas in simple terms, the inclusive nature of my courses which encourages active participation, and the detailed materials that I provide participants after all of my courses.
-  
-  My [research interests](/publications) lie in spatial data analysis, planetary health, Bayesian modelling approaches, and epidemiology. During my [PhD](https://doi.org/10.17037/PUBS.04670982), I used a combination of existing and novel spatial statistical modelling approaches to better understand the drivers of dengue re-emergence and expansion in Brazil. These models were informed by data from a range of epidemiological, demographic and climatic spatial datasets. I used R software to carry out these analyses and published [public online repositories](https://github.com/sophie-a-lee) alongside research papers containing detailed code to reproduce model results. 
+intro: 
+  "Did you know that around 99% of all data was produced in the last 10 years? 
 
-  Outside of work, I love to travel and cook. On the weekends, you can usually find me tending to my little greenhouse, hiking up hills in the Peak District, or baking cakes and cookies."
+If you feel like you are drowning in data, you are not alone: **93% of people** surveyed by Oracle felt overwhelmed by data in their work! Spending time feeling overwhelmed leads to time wasted that could be spent carrying out interesting analysis and gaining important insights. When faced with these issues, many analysts opt to play it safe, sticking to the same tired summary statistics, missing opportunities within their data.
+
+The amount of data being produced is not slowing down, so it is important to recognise the steps needed to reduce the effects of data overload. Taking a step back to clearly define the problems you are aiming to solve, or the insights you are hoping to gain with the data is a simple, often overlooked part of the analysis process. From this, crafting a statistical analysis plan that includes the most effective approaches to solve this problem, whilst working within the limitations of the data, will help add direction to the process. 
+
+S-Cubed is here to work through the data fatigue with you, helping you to streamline this process, saving time and stress by:
+
+- Designing a robust statistical analysis plan working towards your project’s goals, identifying the most appropriate statistical methods for the job
+- Translating even the most complex analysis results into meaningful insights that can be communicated with a non-technical audience
+- Identifying ways in which this process can be streamlined in future, reducing the chance of suffering data fatigue in future
+
+If you would like to hear how S-Cubed can translate your data into results, book a [free 30 minute discovery call](https://calendly.com/sophie-a-lee10/30min)."
 
 ---
 

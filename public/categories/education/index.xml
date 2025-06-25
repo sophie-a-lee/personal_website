@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on S-cubed</title>
+    <link>http://localhost:4321/categories/education/</link>
+    <description>Recent content in Education on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to R with Tidyverse</title>
+      <link>http://localhost:4321/courses/1_intro_r_tidyverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/1_intro_r_tidyverse/</guid>
+      <description>Course level: Foundation&#xA;Next live dates: 24 - 26th September, 2024.&#xA;Course description R is a popular open-source programming language used by data scientists, statisticians, social &amp;amp; health researchers, and many more across a wide range of disciplines. R is particularly appealing to researchers as it is free to access, designed to encourage collaborative and reproducible data analysis, and is constantly evolving to include the latest research developments.&#xA;This two-day workshop is designed to equip PhD students, academics, and professional researchers across various disciplines with the essential skills to leverage the power of R and Tidyverse for their academic research.</description>
+    </item>
+    <item>
+      <title>Spatial data analysis with R</title>
+      <link>http://localhost:4321/courses/2_spatial_data_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/2_spatial_data_analysis/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: 16 - 19 December&#xA;Course description Spatial data analysis allows us to go beyond traditional investigation of data, and uncover relationships and patterns based on where things are. This adds an extra layer of understanding of our data which can aid us when making inferences and predictions.&#xA;Spatial data analysis has a wide range of applications across many different sectors. For example, improving access to healthcare, increasing efficiency in transport networks, identifying areas of expansion in retail and hospitality, and developing approaches to environmental preservation.</description>
+    </item>
+    <item>
+      <title>Data visualisation with ggplot2</title>
+      <link>http://localhost:4321/courses/3_data_viz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/3_data_viz/</guid>
+      <description>Course level: Foundation&#xA;Next live dates: 27 November&#xA;Course description Data visualisation is one of the most important steps in any analysis journey. Visualisations allow us to explore our data, identify errors and outliers, generate hypotheses about possible relationships between variables, and communicate results clearly and efficiently. ggplot2 is a powerful R package that was designed to create publication-quality graphics in seconds. The joy of ggplot2 is its flexibility: graphs are built in layers which can be easily customised, ensuring novel plots to fit almost any situation.</description>
+    </item>
+    <item>
+      <title>Introduction to Statistics</title>
+      <link>http://localhost:4321/courses/4_intro_stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/4_intro_stats/</guid>
+      <description>Course level: Foundation&#xA;[Self-paced online course] ( https://equationsofdisease.com/courses/introduction-to-statistics/)&#xA;Course description Statistics is the science of data. This includes the collection and storage of data, the visualisation and analysis of samples of data, the interpretation of results, and the communication of these to a wider audience. In this course, participants will be introduced to the fundamental concepts of statistical analysis and the steps required to carry out valid, robust inferences on data.</description>
+    </item>
+    <item>
+      <title>Inferential statistics</title>
+      <link>http://localhost:4321/courses/5_inferential_statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/5_inferential_statistics/</guid>
+      <description>Course level: Foundation&#xA;Self-paced course available FREE here&#xA;Course description The aim of statistical analysis is often to make inferences about a target population of interest based on a random sample from it. Inferences such as these require inferential statistics.&#xA;This micro-course will introduce two of the most common inferential statistics: p-values and confidence intervals. Although these statistics are widely used across many disciplines, their interpretation can be tricky, which can lead to them being misrepresented.</description>
+    </item>
+    <item>
+      <title>Generalised additive models with R</title>
+      <link>http://localhost:4321/courses/6_generalised_additive_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/6_generalised_additive_models/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: 9 - 12 December&#xA;Course description Generalised additive models (GAMs) take regression to the next level, allowing a more flexible exploration of our data. Unlike generalised linear models, GAMs do not assume a linear relationship between the outcome and covariate(s). Using smoothing functions, we can explore nonlinear trends, such as the impact of temperature on barbecue food sales, or the relationship between income and happiness.</description>
+    </item>
+    <item>
+      <title>Regression with R</title>
+      <link>http://localhost:4321/courses/7_regression_with_r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/7_regression_with_r/</guid>
+      <description>Course level: Foundation&#xA;Next live dates: TBC Contact us to request training details.&#xA;Course description Regression analysis is one of the most widely used and powerful quantitative analysis methods used across almost every sector. Regression models were designed to investigate the relationship between an outcome of interest and a set of explanatory variables. These methods can then be used to make inferences about underlying relationships between variables, while accounting for confounding factors, and can be used to make predictions based on existing data.</description>
+    </item>
+    <item>
+      <title>Bayesian statistics with R</title>
+      <link>http://localhost:4321/courses/8_bayesian_stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/8_bayesian_stats/</guid>
+      <description>Course level: Intermediate&#xA;Next live dates: TBC (Contact us to request training details).&#xA;Course description Throughout our lives, in everything we do, we will have some prior belief about what the result of an action will be, often based on previous experiences. For example, when I take the train to London, I expect to arrive around 20 minutes later than scheduled as UK trains are notoriously unreliable! Bayesian inference allows us to take account of our prior beliefs and incorporate them into our analysis using Bayes’ theorem.</description>
+    </item>
+    <item>
+      <title>Statistical thinking</title>
+      <link>http://localhost:4321/courses/9_statistical_thinking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/courses/9_statistical_thinking/</guid>
+      <description>Course level: foundation&#xA;Next live course dates: TBC Click here to request training details.&#xA;Course description Many people assume that statistics require complex analysis methods but often, the simplest approaches can be the most effective. This course focuses on the concept of statistically thinking, describing data and complex systems in relatively simple terms whilst acknowledging underlying uncertainty.&#xA;Statistical thinking is a necessary skill, not just in work but in our personal lives too.</description>
+    </item>
+    <item>
+      <title>5 tips for aspiring R users</title>
+      <link>http://localhost:4321/blog/2025_06_25_newr/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/2025_06_25_newr/</guid>
+      <description>Motivation As a Statistical Programming Trainer, one of the most common questions I get asked is where do I start?? More than that, where do I start and how do I find the motivation to keep going?&#xA;Many aspiring R users are excited to dive into R, dreaming of beautiful plots and elegant data wrangling…only to hit a wall.&#xA;Maybe you get stuck on syntax, or maybe you find yourself crawling back to SAS, SPSS or Excel just this once.</description>
+    </item>
+    <item>
+      <title>TWIL: Smoother course material creation using Github templates and pages</title>
+      <link>http://localhost:4321/blog/twil_ghpages/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/twil_ghpages/</guid>
+      <description>TL;DR: This week, I wanted to streamline the workflow of course development, making the most of Github&amp;rsquo;s capabilities. I found Github templates and pages make course initialisation and deployment super simple.&#xA;Motivation After some very exciting developments, I have four (!) sets of course materials to develop by the end of the year. As part of my goal to ensure all my course materials are accessible to anyone, regardless of their location or financial circumstances, I will be developing all my materials using Quarto and hosting them online for free.</description>
+    </item>
+    <item>
+      <title>TWIL: 7 simple tricks for a banging Quarto presentation</title>
+      <link>http://localhost:4321/blog/twil_quarto_pres/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/twil_quarto_pres/</guid>
+      <description>TL;DR: Last week, I set myself a goal to convert the slides accompanying the Statistical thinking short course into Quarto. I have listed the 7 most useful things I learned, including how to create custom themes (with variants), how to wrangle slide transitions with fragments, and using absolute positioning to make slide layouts super easy!&#xA;Motivation Recently I wrote about my experiences converting notes for the latest Statistical Thinking course into a Quarto book on my blog.</description>
+    </item>
+    <item>
+      <title>TWIL: Converting RMarkdown materials to a Quarto book</title>
+      <link>http://localhost:4321/blog/2024_08_09_twil_quarto/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/2024_08_09_twil_quarto/</guid>
+      <description>TL;DR: Every time I use Quarto, I learn something new! I wanted to start documenting these findings in a blog so others know they exist. This week, I leaned some useful code chunk options and how to add dark mode to make materials more accessible.&#xA;Motivation Next week, I will be teaching the third edition of my Statistical Thinking course to the UK Ministry of Justice. The first edition was written using Google Docs due to tight deadlines (without needing to learn a new language!</description>
+    </item>
+    <item>
+      <title>TWIL: Using Quarto to write free, accessible training materials</title>
+      <link>http://localhost:4321/blog/quarto_training/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/quarto_training/</guid>
+      <description>TL;DR A blog post that turned into a short tutorial explaining why Quarto is my weapon of choice when making my training accessible, and how to host materials for free using Netlify.&#xA;Motivation I am on a mission to make statistics and R coding accessible, inclusive, and enjoyable! Part of this mission includes providing free access to training materials so that anyone who wants to learn has the opportunity to do so (not just those with access to funding).</description>
+    </item>
+    <item>
+      <title>Feedback for Statistical Thinking</title>
+      <link>http://localhost:4321/feedback/statistical_thinking/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/statistical_thinking/</guid>
+      <description>&amp;ldquo;The content was excellent for a beginner like me. The topics covered had the right depth and breadth, making complex statistical concepts accessible and relevant to my work. I found the balance between theory and practical application particularly helpful in understanding how to use statistics effectively in real-world situations.&amp;rdquo;&#xA;June 2024. Data analyst, UK Ministry of Justice &amp;ldquo;It made me want to do a second part of the course and learn about other distributions and how to deal with them.</description>
+    </item>
+    <item>
+      <title>Feedback for Inferential Statistics</title>
+      <link>http://localhost:4321/feedback/inferential_stats/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/inferential_stats/</guid>
+      <description>&amp;ldquo;The lessons are so informative, simple to understand, and well illustrated.&amp;rdquo;&#xA;March, 2024 &amp;ldquo;It cleared my misconceptions on the p value and improved my knowledge of statistics&amp;rdquo;&#xA;September, 2023 &amp;ldquo;It was a good and valuable course that increase my knowledge toward inferential statistics&amp;rdquo;&#xA;September, 2023 </description>
+    </item>
+    <item>
+      <title>Feedback for Introduction to R with Tidyverse courses</title>
+      <link>http://localhost:4321/feedback/intro_r/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/intro_r/</guid>
+      <description>&amp;ldquo;Everything was super useful for the work I am currently doing. The main thing that was useful was learning how to merge multiple data sheets together into one data file. I liked how interactive it was as well as it made it easier to fully understand the logic.&amp;rdquo;&#xA;March 2024. Data analyst, Department of Business and Trade &amp;ldquo;Sophie Lee was extremely good, she went at a very good pace and was always happy to help.</description>
+    </item>
+    <item>
+      <title>Feedback for Regressions with R</title>
+      <link>http://localhost:4321/feedback/regressions_r/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/feedback/regressions_r/</guid>
+      <description>&amp;ldquo;Really enjoyed the course, which is something I didn&amp;rsquo;t think I would ever say about statistics. Originally signed up as I was trying to do multiple linear regression and there were certain aspects that I couldn&amp;rsquo;t quite get my head around. The course was perfectly pitched for my level of previous understanding and covered exactly the sort of thing I was looking for (the practical example was essentially the same as my research but just with slightly different predictors - so ideal).</description>
+    </item>
+    <item>
+      <title>Takeaways from the first UKCOTS</title>
+      <link>http://localhost:4321/blog/ukcots/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/ukcots/</guid>
+      <description>As someone that loves statistics and teaching, COTS (conference of teaching statistics) has always felt like my professional happy place. My first introduction to COTS was in 2016, as a newly-appointed Teaching Fellow, given the opportunity to present my work in Australia (and a chance to escape London winter? Sign me up!). I arrived at the OZCOTS conference in Canberra a little nervous and a lot jet lagged. I found a welcoming, inclusive community of like-minded people that loved teaching statistics and were committed to sharing the best ways to do this.</description>
+    </item>
+  </channel>
+</rss>

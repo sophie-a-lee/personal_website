@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conferences on S-cubed</title>
+    <link>http://localhost:4321/categories/conferences/</link>
+    <description>Recent content in Conferences on S-cubed</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Takeaways from the first UKCOTS</title>
+      <link>http://localhost:4321/blog/ukcots/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/ukcots/</guid>
+      <description>As someone that loves statistics and teaching, COTS (conference of teaching statistics) has always felt like my professional happy place. My first introduction to COTS was in 2016, as a newly-appointed Teaching Fellow, given the opportunity to present my work in Australia (and a chance to escape London winter? Sign me up!). I arrived at the OZCOTS conference in Canberra a little nervous and a lot jet lagged. I found a welcoming, inclusive community of like-minded people that loved teaching statistics and were committed to sharing the best ways to do this.</description>
+    </item>
+  </channel>
+</rss>

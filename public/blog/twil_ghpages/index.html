@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.131.0">
+<title>TWIL: Smoother course material creation using Github templates and pages | S-cubed</title>
+
+
+<meta property="twitter:site" content="@sophiestats10">
+<meta property="twitter:creator" content="@sophiestats10">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A quick summary of how Github templates and pages can be used to make course material creation and sharing smoother.">
+
+
+<meta property="og:site_name" content="S-cubed">
+<meta property="og:title" content="TWIL: Smoother course material creation using Github templates and pages | S-cubed">
+<meta property="og:description" content="A quick summary of how Github templates and pages can be used to make course material creation and sharing smoother." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="http://localhost:4321/blog/twil_ghpages/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="http://localhost:4321/blog/twil_ghpages/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="http://localhost:4321/blog/twil_ghpages/featured.jpg" >
+    
+    
+  
+  <meta itemprop="name" content="TWIL: Smoother course material creation using Github templates and pages">
+  <meta itemprop="description" content="TL;DR: This week, I wanted to streamline the workflow of course development, making the most of Github’s capabilities. I found Github templates and pages make course initialisation and deployment super simple.
+Motivation After some very exciting developments, I have four (!) sets of course materials to develop by the end of the year. As part of my goal to ensure all my course materials are accessible to anyone, regardless of their location or financial circumstances, I will be developing all my materials using Quarto and hosting them online for free.">
+  <meta itemprop="datePublished" content="2024-09-06T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-09-06T00:00:00+00:00">
+  <meta itemprop="wordCount" content="918">
+  <meta itemprop="image" content="http://localhost:4321/blog/twil_ghpages/featured.jpg">
+  <meta itemprop="keywords" content="Statistics,Education,Software,TWIL">
+  
+  
+
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.00a51ef4905c55f509490df183e797045778d025e6cdf3d0c977c654629cd9bf.css" integrity="sha256-AKUe9JBcVfUJSQ3xg&#43;eXBFd40CXmzfPQyXfGVGKc2b8=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.0c13611bb52989865986fca1d644639ed5229d1fd703a84d9a164f4246c78834.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:4321/" title="Home">
+      <img src="/img/favicon.ico" class="dib db-l h2 w-auto" alt="S-cubed">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/courses/" title="Courses">Courses</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publications/" title="Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">TWIL: Smoother course material creation using Github templates and pages</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Sophie Lee in <a href="http://localhost:4321/categories/statistics">Statistics</a>  <a href="http://localhost:4321/categories/education">Education</a>  <a href="http://localhost:4321/categories/software">Software</a>  <a href="http://localhost:4321/categories/twil">TWIL</a> </p>
+        <p class="f7 db mv0 ttu">September 6, 2024</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p><strong>TL;DR:</strong> This week, I wanted to streamline the workflow of course development, making the most of Github&rsquo;s capabilities. I found Github templates and pages make course initialisation and deployment super simple.</p>
+
+
+
+
+<h2 id="motivation">Motivation
+  <a href="#motivation"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>After some very exciting developments, I have four <strong>(!)</strong> sets of course materials to develop by the end of the year. As part of my 
+<a href="https://x.com/SophieStats10/status/1813502853916299679" target="_blank" rel="noopener">goal</a> to ensure all my course materials are accessible to anyone, regardless of their location or financial circumstances, I will be developing all my materials using 
+<a href="https://scubed.rbind.io/blog/2024_08_09_twil_quarto/" target="_blank" rel="noopener">Quarto</a> and hosting them online for free.</p>
+<p>Writing course materials is fun but very time consuming! That is why I would like to streamline the workflow as much as possible. I already use Github for version control and, more recently, to deploy materials online. I wondered whether I could streamline the process of course writing by keeping as much of the workflow within the Github platform as possible.</p>
+<p><strong>Spoiler alert:</strong> Github absolutely can be used to streamline this process and it takes very little time or effort to set this up!</p>
+<p>In this blog, I wanted to share a little overview of what I learned creating this workflow and how Github templates and Pages can streamline content creation.</p>
+
+
+
+
+<h2 id="twil-this-week-i-learned">TWIL: This week I learned
+  <a href="#twil-this-week-i-learned"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+
+
+
+
+<h3 id="creating-a-github-template">Creating a Github template
+  <a href="#creating-a-github-template"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The first part of course creation workflow to streamline was the initial set up of course materials. I was inspired 
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7224446454159798273/" target="_blank" rel="noopener">by James Barlett&rsquo;s response to my LinkedIn post</a> to create a course template that could be used to ensure content is consistent in terms of structure, appearance, and welcome page.</p>
+<p>Template repositories are created the same way as any other repository (if you are new to Github, detailed instructions are given 
+<a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository" target="_blank" rel="noopener">here</a>). Ensure the repository contains any files that are required for future projects. For me, that is any files required to create a Quarto book. These were:</p>
+<ul>
+<li>A <code>_quarto.yml</code> file outlining the structure of the document. This includes the title, navigation bar settings, the structure of chapters and appendices, as well as any themes. If you intend to publish materials on Github pages, begin this file with the following (to be explained later!)</li>
+</ul>
+<pre tabindex="0"><code>project:
+  type: book
+  output-dir: docs
+</code></pre><ul>
+<li>An <code>index.qmd</code> file containing the material&rsquo;s welcome page. For me, this included an example course outline, instructions on how to use the materials, licensing information, and links to data descriptions.</li>
+</ul>
+<p><img src="welcom.png" alt=""></p>
+<ul>
+<li>A <code>data_description.qmd</code> file to add to the course appendix, giving information about the data used in the course</li>
+<li>A <code>style.scss</code> file with your custom themes and any other SCSS code (including 
+<a href="https://x.com/SophieStats10/status/1821820629433094636" target="_blank" rel="noopener">custom callouts!</a>)</li>
+</ul>
+<p><img src="style_callout.png" alt=""></p>
+<p>Once you are happy with the structure of your template, go to the <img src="gh_settings.png" alt=""> tab on your repository and tick the &lsquo;Template repository&rsquo; option. This will now give you the option to <img src="use_template.png" alt=""> to create a new repository when on the template&rsquo;s page. So simple!</p>
+<p>If you would like to see an example template repository, mine can be viewed 
+<a href="https://github.com/sophie-a-lee/quarto_course_template" target="_blank" rel="noopener">here</a>.</p>
+
+
+
+
+<h3 id="github-pages-to-host-existing-repositories">Github pages to host existing repositories
+  <a href="#github-pages-to-host-existing-repositories"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Until now, I have been using Netlify to host my course materials for free (I wrote more about that 
+<a href="https://scubed.rbind.io/blog/quarto_training/" target="_blank" rel="noopener">here</a>). The main reasons for choosing Netlify was that it was very quick and easy to set up and deploy Quarto resources. But, in the interest of learning, I wanted to see whether this process could be streamlined (and even automated) within the Github interface.</p>
+<p>
+<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages" target="_blank" rel="noopener">Github pages</a> allow you to publish html (or CSS or Javascript) files directly from a Github repository to a website. If, like me, you already host your content in Github repositories, this makes publishing materials online super easy and removes the need to include additional platforms.</p>
+<p>By default, Github pages are deployed on Github&rsquo;s domain, with the website address taking the form <code>username.github.io</code> (for example, my page is 
+<a href="https://sophie-a-lee.github.io/" target="_blank" rel="noopener">sophie-a-lee.github.io</a>). To create this initial page, add a new repository and give it the name of the site (<code>&lt;username&gt;.github.io</code>). Ensure the repository is set to public and it contains a <code>README</code>.</p>
+<p>To deploy this repository, go to the <img src="gh_settings.png" alt=""> tab of the repository, select <strong>Pages</strong> from the menu on the left and choose the Branch you would like to deploy (usually this will be the <code>main</code> branch). Depending on how you have configured your repository, select either the root or docs folder to deploy from and click Save.</p>
+<p><strong>Note</strong> that Github pages will only deploy files from the root folder of a repository, or a folder named <code>docs</code>. This is why in the previous section, the template <code>yml</code> file contained the option <br> <code>output-dir:docs</code>, saving all rendered files to a new folder named <code>docs</code>.</p>
+<p><img src="pages_deploy.png" alt=""></p>
+<p>Once the your Github page is live, repositories can be deployed in the same way, and made available at <code>&lt;username&gt;.github.io/&lt;repo-name&gt;</code>. For example, my Introduction to R with Tidyverse materials can be found at 
+<a href="https://sophie-a-lee.github.io/Introduction_R_Tidyverse_course/" target="_blank" rel="noopener">sophie-a-lee.github.io/Introduction_R_Tidyverse_course</a>.</p>
+
+
+
+
+<h2 id="next-steps">Next steps
+  <a href="#next-steps"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I have already begun using the course material template file and can confirm that the initial work setting up this repository was so worth it. I can already see that in the future this will save so much time which can be invested into writing the content itself.</p>
+<p>The next steps in this learning journey is to determine whether this workflow could be streamlined even further using 
+<a href="https://docs.github.com/en/actions" target="_blank" rel="noopener">Github Actions</a>. Manually deploying repositories is very straight forward but after following 
+<a href="https://www.youtube.com/watch?v=arzBRW5XIkg" target="_blank" rel="noopener">Melissa Van Bussel&rsquo;s tutorial</a> on publishing Github Pages using Github Actions, I wonder whether this could be included into course templates to automate their deployment.</p>
+<p>If you want to see the final products or attend one of the upcoming courses, be sure to follow my on 
+<a href="https://x.com/SophieStats10" target="_blank" rel="noopener">Twitter</a>, 
+<a href="https://www.linkedin.com/in/sophie-a-lee/" target="_blank" rel="noopener">LinkedIn</a> or my new 
+<a href="https://bsky.app/profile/sophie-stats.bsky.social" target="_blank" rel="noopener">Bluesky account</a>.</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">September 6, 2024</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">5 minute read, 918 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="http://localhost:4321/categories/statistics">Statistics</a>  <a href="http://localhost:4321/categories/education">Education</a>  <a href="http://localhost:4321/categories/software">Software</a>  <a href="http://localhost:4321/categories/twil">TWIL</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="http://localhost:4321/blog/2025_06_25_newr/">&larr; 5 tips for aspiring R users</a>
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="http://localhost:4321/blog/twil_new_freelancer/">TWIL: 7 lessons from 6 months as a full-time freelancer &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="apreshill/apero"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2025 S-cubed, Sheffield, UK
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/sophie-a-lee" title="github" target="_blank" rel="me noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/sophiestats10" title="twitter" target="_blank" rel="me noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/sophie-lee-51905587/" title="linkedin" target="_blank" rel="me noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0002-2049-9756" title="orcid" target="_blank" rel="me noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/cv/" title="cv" >
+      <i class="ai ai-cv fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/buymeacoffee.com/sophie_a_lee" title="mug-hot" >
+      <i class="fas fa-mug-hot fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>
